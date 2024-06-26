@@ -1,12 +1,14 @@
 from typing import Dict, Union, List
+from collections import defaultdict, Counter
 from pathlib import Path
 import json
+import spacy
 from tqdm import tqdm
 
 
 def write_to_file(data: Dict, file_path: Union[Path, str]) -> None:
     with open(file_path, "w") as f:
-        f.writelines(json.dumps(data))
+        f.writelines(json.dumps(data, indent=4))
 
 
 def read_json_file(path):
@@ -14,12 +16,11 @@ def read_json_file(path):
     try:
         with open(path, "r") as reader:
             data = json.loads(reader.read())
+            return data
     except FileNotFoundError:
         print(f"{path} File Not Found")
     except:
         print(f"Error Reading the FIle {path}")
-
-    return data
 
 
 def get_text_from_reviews(reviews):
@@ -31,6 +32,16 @@ def get_text_from_reviews(reviews):
     return texts
 
 
+def get_text_and_rating_from_reviews(reviews):
+
+    text_rating_tuple = []
+    for item in reviews["rows"]:
+        if item["text"]:
+            text_rating_tuple.append((item["text"], item["rating"]))
+
+    return text_rating_tuple
+
+
 def get_all_text_data(data, rating=False):
     result = []
     process_func = None
@@ -39,18 +50,69 @@ def get_all_text_data(data, rating=False):
         process_func = get_text_and_rating_from_reviews
     else:
         process_func = get_text_from_reviews
-
-    for item in tqdm(data):
+    for item in data:
         result += process_func(item["reviews"])
 
     return result
 
 
-def get_text_and_rating_from_reviews(reviews):
+def get_nouns_by_freq(rating_text_dict, nlp, rating_value):
+    texts = rating_text_dict[rating_value]
+    docs = [nlp(text) for text in texts]
 
-    texts = []
-    for item in reviews["rows"]:
-        if item["text"]:
-            texts.append((item["text"], item["rating"]))
+    word_frequency = defaultdict(int)
+    associated_adjectives = defaultdict(list)
 
-    return texts
+    for doc in docs:
+        for token in doc:
+            if not (token.is_stop or token.is_punct) and token.pos_ == "NOUN":
+                word_frequency[token.lemma_] += 1
+
+                for child in token.children:
+                    if not (child.is_punct or child.is_stop) and child.pos_ == "ADJ":
+                        associated_adjectives[token.lemma_].append(child.lemma_)
+
+    for key, value in associated_adjectives.items():
+        associated_adjectives[key] = Counter(value)
+
+    return word_frequency, associated_adjectives
+
+
+def create_rating_text_dict(data):
+
+    text_rating = get_all_text_data(data, rating=True)
+    text, rating = zip(*text_rating)
+    rating_text_dict = {key: [] for key in list(["good", "bad"])}
+
+    for text, rating in text_rating:
+        key = "good" if rating >= 4 else "bad"
+        rating_text_dict[key].append(text)
+
+    return rating_text_dict
+
+
+def get_refined_data(
+    raw_reviews_path,
+    output_file_path,
+    rating_values=["good", "bad"],
+    model="en_core_web_sm",
+):
+    reviews = read_json_file(path=raw_reviews_path)
+
+    rating_text_dict = create_rating_text_dict(reviews["data"])
+
+    nlp = spacy.load(model)
+    result = {key: [] for key in list(rating_values)}
+    
+    print("processing for classes ['good','bad']")
+    for value in tqdm(rating_values):
+        word_frequency, associated_adjectives = get_nouns_by_freq(
+            rating_text_dict=rating_text_dict, nlp=nlp, rating_value=value
+        )
+        result[value] = {
+            "word_freqs": word_frequency,
+            "associated_adjectives": associated_adjectives,
+        }
+
+    write_to_file(data=result, file_path=output_file_path)
+    print("Writing to output file complete")

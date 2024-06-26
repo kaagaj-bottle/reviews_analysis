@@ -56,7 +56,9 @@ def get_all_text_data(data, rating=False):
     return result
 
 
-def get_nouns_by_freq(rating_text_dict, nlp, rating_value):
+def get_nouns_by_freq(
+    rating_text_dict, nlp, rating_value, top_n_word, top_n_association
+):
     texts = rating_text_dict[rating_value]
     docs = [nlp(text) for text in texts]
 
@@ -72,10 +74,29 @@ def get_nouns_by_freq(rating_text_dict, nlp, rating_value):
                     if not (child.is_punct or child.is_stop) and child.pos_ == "ADJ":
                         associated_adjectives[token.lemma_].append(child.lemma_)
 
-    for key, value in associated_adjectives.items():
-        associated_adjectives[key] = Counter(value)
+    top_n_word = (
+        top_n_word if top_n_word <= len(word_frequency) else len(word_frequency)
+    )
 
-    return word_frequency, associated_adjectives
+    word_frequency = dict(
+        sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)[:top_n_word]
+    )
+    filtered_associations = defaultdict(list)
+    for key, value in associated_adjectives.items():
+        if key in word_frequency:
+            temp_top_n_association = (
+                top_n_association
+                if top_n_association <= len(associated_adjectives[key])
+                else len(associated_adjectives)
+            )
+
+            filtered_associations[key] = dict(
+                sorted(Counter(value).items(), key=lambda x: x[1], reverse=True)[
+                    :temp_top_n_association
+                ]
+            )
+
+    return word_frequency, filtered_associations
 
 
 def create_rating_text_dict(data):
@@ -96,6 +117,8 @@ def get_refined_data(
     output_file_path,
     rating_values=["good", "bad"],
     model="en_core_web_sm",
+    top_n_word=25,
+    top_n_association=5,
 ):
     reviews = read_json_file(path=raw_reviews_path)
 
@@ -103,11 +126,15 @@ def get_refined_data(
 
     nlp = spacy.load(model)
     result = {key: [] for key in list(rating_values)}
-    
+
     print("processing for classes ['good','bad']")
     for value in tqdm(rating_values):
         word_frequency, associated_adjectives = get_nouns_by_freq(
-            rating_text_dict=rating_text_dict, nlp=nlp, rating_value=value
+            rating_text_dict=rating_text_dict,
+            nlp=nlp,
+            rating_value=value,
+            top_n_word=top_n_word,
+            top_n_association=top_n_association,
         )
         result[value] = {
             "word_freqs": word_frequency,

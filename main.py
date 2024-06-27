@@ -14,7 +14,7 @@ def main():
         raw_reviews_path=input_file,
         output_file_path=output_file,
         rating_values=["good","bad"],
-        model="en_core_web_md",
+        model="en_core_web_lg",
         top_n_word=95,
         top_n_association=5,
         threshold=threshold

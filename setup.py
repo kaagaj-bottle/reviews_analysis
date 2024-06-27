@@ -12,7 +12,8 @@ setup(
         "nltk",
         "matplotlib",
         "scikit-learn",
-        "spacy"
+        "spacy",
+        "numpy"
     ],
     packages=find_packages(),
 )

@@ -4,6 +4,7 @@ from pathlib import Path
 import json
 import spacy
 from tqdm import tqdm
+import numpy as np
 
 
 def write_to_file(data: Dict, file_path: Union[Path, str]) -> None:
@@ -73,19 +74,23 @@ def get_nouns_by_freq(
                 for child in token.children:
                     if not (child.is_punct or child.is_stop) and child.pos_ == "ADJ":
                         associated_adjectives[token.lemma_].append(child.lemma_)
-                        if child.lemma_=="memorable":
-                            print(doc)
-
-    top_n_word = (
-        top_n_word if top_n_word <= len(word_frequency) else len(word_frequency)
-    )
 
     word_frequency = dict(
-        sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)[:top_n_word]
+        sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)
+    )
+    median_word_frequency = np.percentile(list(word_frequency.values()), top_n_word)
+    filtered_word_frequency = {
+        key: value
+        for key, value in word_frequency.items()
+        if value >= median_word_frequency
+    }
+
+    filtered_word_frequency = dict(
+        sorted(filtered_word_frequency.items(), key=lambda x: x[1], reverse=True)
     )
     filtered_associations = defaultdict(list)
     for key, value in associated_adjectives.items():
-        if key in word_frequency:
+        if key in filtered_word_frequency:
             temp_top_n_association = (
                 top_n_association
                 if top_n_association <= len(associated_adjectives[key])
@@ -98,7 +103,7 @@ def get_nouns_by_freq(
                 ]
             )
 
-    return word_frequency, filtered_associations
+    return filtered_word_frequency, filtered_associations
 
 
 def create_rating_text_dict(data):
@@ -129,7 +134,7 @@ def get_refined_data(
     nlp = spacy.load(model)
     result = {key: [] for key in list(rating_values)}
 
-    print("processing for classes ['good','bad']")
+    print(f"processing for classes {rating_values}")
     for value in tqdm(rating_values):
         word_frequency, associated_adjectives = get_nouns_by_freq(
             rating_text_dict=rating_text_dict,

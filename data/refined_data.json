@@ -2,45 +2,67 @@
     "bad": {
         "word_freqs": {
             "bus": 89,
-            "service": 82,
-            "travel": 62,
+            "service": 81,
+            "travel": 60,
             "company": 56,
             "agency": 49,
             "guide": 48,
             "ticket": 37,
+            "experience": 36,
             "time": 35,
             "money": 35,
-            "experience": 33,
             "day": 32,
             "driver": 31,
-            "seat": 28,
             "trip": 27,
             "people": 27,
+            "seat": 27,
             "place": 26,
             "customer": 23,
-            "tour": 22,
-            "trek": 21,
-            "hotel": 20,
+            "trek": 23,
+            "tour": 20,
             "staff": 18,
             "hour": 18,
+            "hotel": 17,
             "price": 17,
             "agent": 16,
-            "package": 15
+            "package": 15,
+            "jeep": 15,
+            "number": 15,
+            "location": 12,
+            "person": 12,
+            "office": 12,
+            "star": 11,
+            "flight": 11,
+            "journey": 11,
+            "refund": 11,
+            "way": 11,
+            "passenger": 11,
+            "tourist": 11
         },
         "associated_adjectives": {
             "service": {
                 "bad": 14,
                 "good": 7,
                 "poor": 6,
-                "jeep": 4,
-                "slow": 2
+                "slow": 2,
+                "nice": 2
             },
             "experience": {
-                "bad": 15,
+                "bad": 18,
                 "awful": 3,
                 "good": 3,
                 "entire": 1,
                 "pleasurable": 1
+            },
+            "package": {
+                "nepal": 1
+            },
+            "driver": {
+                "experienced": 1,
+                "anish": 1,
+                "stupid": 1,
+                "cheerful": 1,
+                "new": 1
             },
             "agency": {
                 "bad": 9,
@@ -53,14 +75,13 @@
                 "well": 1,
                 "bad": 1,
                 "good": 1,
-                "deplorable": 1,
-                "3rd": 1
+                "rude": 1,
+                "new": 1
             },
             "price": {
                 "reasonable": 2,
+                "fair": 2,
                 "high": 2,
-                "fair": 1,
-                "fare": 1,
                 "cheap": 1
             },
             "place": {
@@ -77,6 +98,18 @@
                 "stressful": 1,
                 "long": 1
             },
+            "trek": {
+                "different": 2,
+                "high": 1,
+                "second": 1
+            },
+            "location": {
+                "different": 1,
+                "distant": 1,
+                "non": 1,
+                "asian": 1,
+                "perfect": 1
+            },
             "company": {
                 "bad": 5,
                 "sole": 1,
@@ -86,14 +119,9 @@
             "agent": {
                 "unprofessional": 2,
                 "local": 2,
-                "irresponsible": 1,
                 "disreputable": 1,
-                "unkind": 1
-            },
-            "driver": {
-                "stupid": 1,
-                "cheerful": 1,
-                "new": 1
+                "unkind": 1,
+                "middle": 1
             },
             "tour": {
                 "shameless": 2,
@@ -106,6 +134,14 @@
                 "jagadamba": 1,
                 "ugly": 1
             },
+            "jeep": {
+                "public": 1
+            },
+            "journey": {
+                "long": 2,
+                "comfortable": 1,
+                "special": 1
+            },
             "trip": {
                 "memorable": 1,
                 "comfortable": 1
@@ -114,10 +150,6 @@
                 "extra": 2,
                 "additional": 1
             },
-            "trek": {
-                "different": 2,
-                "second": 1
-            },
             "guide": {
                 "tibetian": 2,
                 "unhappy": 1,
@@ -125,11 +157,15 @@
                 "good": 1,
                 "caring": 1
             },
-            "staff": {
-                "rude": 3,
-                "educated": 1,
-                "unprofessional": 1,
-                "courteous": 1
+            "way": {
+                "long": 1,
+                "wrong": 1,
+                "possible": 1
+            },
+            "person": {
+                "impolite": 1,
+                "authorized": 1,
+                "different": 1
             },
             "people": {
                 "bad": 2,
@@ -138,14 +174,19 @@
                 "nepali": 1,
                 "local": 1
             },
+            "number": {
+                "large": 2,
+                "indian": 1,
+                "invalid": 1,
+                "mobile": 1
+            },
             "ticket": {
                 "sasto": 1,
                 "refundable": 1
             },
-            "day": {
-                "express": 1,
-                "long": 1,
-                "different": 1
+            "staff": {
+                "rude": 3,
+                "courteous": 1
             },
             "seat": {
                 "faulty": 1,
@@ -154,12 +195,21 @@
                 "dirty": 1,
                 "good": 1
             },
+            "day": {
+                "long": 1,
+                "different": 1
+            },
+            "star": {
+                "negative": 1
+            },
             "travel": {
-                "bad": 1,
-                "wrost": 1
+                "bad": 1
             },
             "hour": {
                 "long": 1
+            },
+            "passenger": {
+                "local": 1
             }
         }
     }

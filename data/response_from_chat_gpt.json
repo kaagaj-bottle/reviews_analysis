@@ -1,0 +1,85 @@
+{
+  "most_frequent_words": {
+    "experience": 2833,
+    "trip": 1049,
+    "service": 912,
+    "guide": 902,
+    "trek": 853,
+    "tour": 677,
+    "journeying": 675,
+    "acclimation": 602,
+    "company": 529,
+    "day": 515
+  },
+  "adjectives_for_common_words": {
+    "trip": {
+      "amazing": 22,
+      "entire": 18,
+      "great": 17,
+      "memorable": 16,
+      "wonderful": 15
+    },
+    "experience": {
+      "great": 89,
+      "good": 85,
+      "amazing": 64,
+      "unforgettable": 47,
+      "wonderful": 36
+    },
+    "client": {
+      "regular": 1,
+      "frequent": 1,
+      "corporate": 1,
+      "easy": 1
+    },
+    "holiday": {
+      "great": 3,
+      "future": 2,
+      "wonderful": 1,
+      "public": 1,
+      "free": 1
+    },
+    "service": {
+      "good": 186,
+      "excellent": 85,
+      "great": 55,
+      "exceptional": 33,
+      "nice": 29
+    },
+    "ticket": {
+      "international": 11,
+      "domestic": 10,
+      "cheap": 9,
+      "good": 5,
+      "national": 2
+    },
+    "time": {
+      "great": 35,
+      "good": 22,
+      "wonderful": 16,
+      "amazing": 13,
+      "long": 11
+    },
+    "flight": {
+      "domestic": 7,
+      "direct": 2,
+      "good": 2,
+      "thrilling": 2,
+      "long": 2
+    },
+    "choice": {
+      "good": 15,
+      "great": 4,
+      "right": 3,
+      "✈": 1,
+      "🛫": 1
+    },
+    "accommodation": {
+      "good": 9,
+      "comfortable": 6,
+      "great": 3,
+      "excellent": 3,
+      "warm": 1
+    }
+  }
+}

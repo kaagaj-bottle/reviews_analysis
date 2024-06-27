@@ -53,10 +53,10 @@
             "driver": 114,
             "afternoon": 112,
             "holiday": 111,
-            "\u203c\ufe0f": 109,
             "guy": 109,
-            "country": 106,
+            "\u203c\ufe0f": 109,
             "standpoint": 106,
+            "country": 106,
             "airport": 105,
             "detail": 104,
             "culture": 102,
@@ -64,37 +64,37 @@
             "cooperation": 100,
             "thing": 96,
             "moment": 92,
-            "bus": 90,
             "need": 90,
+            "bus": 90,
             "hospitality": 89,
             "brother": 88,
             "lifetime": 88,
             "Nepalese": 88,
-            "person": 86,
             "life": 86,
+            "person": 86,
             "destination": 82,
             "explanation": 80,
             "expectation": 78,
             "hike": 74,
             "altitude": 72,
-            "owner": 71,
             "profession": 71,
+            "owner": 71,
             "member": 69,
             "heli": 69,
             "arrangement": 67,
             "plan": 66,
             "weather": 65,
-            "transit": 62,
-            "town": 62,
-            "memory": 62,
-            "quality": 62,
-            "safety": 62,
             "fun": 62,
-            "value": 61,
+            "memory": 62,
+            "safety": 62,
+            "quality": 62,
+            "town": 62,
+            "transit": 62,
             "tourism": 61,
+            "value": 61,
             "start": 60,
-            "stay": 58,
             "guidance": 58,
+            "stay": 58,
             "consideration": 57,
             "area": 56,
             "expedition": 54,
@@ -102,44 +102,44 @@
             "enroute": 53,
             "traveler": 53,
             "completion": 52,
-            "consultancy": 52,
-            "problem": 52,
             "city": 52,
+            "problem": 52,
+            "consultancy": 52,
             "end": 51,
             "help": 50,
-            "hand": 50,
-            "vehicle": 50,
             "agent": 50,
-            "car": 49,
-            "landscape": 49,
-            "meal": 49,
-            "region": 49,
+            "vehicle": 50,
+            "hand": 50,
             "conception": 49,
-            "house": 48,
+            "landscape": 49,
+            "car": 49,
+            "region": 49,
+            "meal": 49,
             "responce": 48,
             "work": 48,
-            "choice": 47,
-            "trail": 47,
+            "house": 48,
             "history": 47,
+            "trail": 47,
+            "choice": 47,
             "condition": 46,
             "offroad": 46,
             "world": 45,
             "finish": 45,
-            "visit": 44,
-            "dinner": 44,
-            "future": 44,
-            "job": 44,
             "contact": 44,
-            "activity": 44,
+            "dinner": 44,
+            "job": 44,
+            "visit": 44,
             "chai": 44,
-            "minute": 43,
+            "activity": 44,
+            "future": 44,
             "planning": 43,
+            "minute": 43,
             "consulting": 43,
             "dream": 42,
-            "operator": 41,
-            "consultation": 41,
+            "option": 41,
             "level": 41,
-            "option": 41
+            "operator": 41,
+            "consultation": 41
         },
         "associated_adjectives": {
             "experience": {
@@ -852,166 +852,48 @@
             }
         },
         "word_groups": {
-            "car": [
-                "car"
+            "fun": [
+                "fun"
+            ],
+            "conception": [
+                "conception",
+                "context",
+                "familiarity",
+                "foresight",
+                "perspective",
+                "understanding"
             ],
             "acclimation": [
                 "acclimation",
-                "exploration",
-                "infromation",
-                "observation",
-                "preservation",
-                "relation"
-            ],
-            "detour": [
-                "detour",
-                "excursion",
-                "trip"
-            ],
-            "country": [
-                "country",
-                "nation"
-            ],
-            "daughter": [
-                "daughter",
-                "father",
-                "mother",
-                "sister"
-            ],
-            "person": [
-                "person"
-            ],
-            "completion": [
-                "completion",
-                "construction",
-                "creation",
-                "operation",
-                "transportation"
-            ],
-            "acclimatisation": [
                 "acclimatisation",
                 "acclimatization",
-                "coordination",
-                "determination",
-                "examination",
-                "implementation",
-                "initiation",
-                "ordination",
-                "preparation",
-                "specialization"
-            ],
-            "place": [
-                "place"
-            ],
-            "help": [
-                "help"
-            ],
-            "visit": [
-                "visit",
-                "visita"
-            ],
-            "transit": [
-                "transit",
-                "transport",
-                "transportation"
-            ],
-            "stay": [
-                "stay"
-            ],
-            "bus": [
-                "bus"
-            ],
-            "afternoon": [
-                "afternoon",
-                "evening",
-                "morning",
-                "night"
-            ],
-            "destination": [
-                "destination",
-                "location"
-            ],
-            "holiday": [
-                "holiday"
-            ],
-            "guide": [
-                "guide",
-                "guider",
-                "honeyguide"
-            ],
-            "landscape": [
-                "landscape"
-            ],
-            "time": [
-                "time"
-            ],
-            "corporation": [
-                "corporation",
-                "deduction",
-                "institution",
-                "organisation",
-                "organization"
-            ],
-            "comprehension": [
-                "comprehension",
+                "communication",
+                "communicator",
                 "conception",
-                "description",
-                "explanation",
-                "formality"
+                "creation",
+                "customisation",
+                "development",
+                "exploration",
+                "implementation",
+                "infromation",
+                "initiation",
+                "interaction",
+                "introduction",
+                "miscommunication",
+                "modernization",
+                "specialization",
+                "transformation",
+                "transition"
             ],
-            "enroute": [
-                "enroute",
-                "route"
+            "responce": [
+                "responce",
+                "response"
             ],
-            "standpoint": [
-                "standpoint",
-                "view"
+            "lot": [
+                "lot"
             ],
-            "guesthouse": [
-                "guesthouse",
-                "hostel",
-                "hotel"
-            ],
-            "commitment": [
-                "commitment",
-                "dedication",
-                "sociability"
-            ],
-            "brother": [
-                "brother",
-                "father",
-                "mother"
-            ],
-            "hike": [
-                "hike",
-                "hiker"
-            ],
-            "moment": [
-                "moment"
-            ],
-            "tour": [
-                "tour"
-            ],
-            "care": [
-                "care"
-            ],
-            "dinner": [
-                "dinner",
-                "lunch"
-            ],
-            "food": [
-                "food"
-            ],
-            "boyfriend": [
-                "boyfriend",
-                "girlfriend",
-                "husband"
-            ],
-            "operator": [
-                "operator"
-            ],
-            "minute": [
-                "minute"
+            "need": [
+                "need"
             ],
             "acclimatization": [
                 "acclimatization",
@@ -1027,85 +909,213 @@
                 "quotation",
                 "specialization"
             ],
-            "company": [
-                "company"
+            "history": [
+                "history"
             ],
-            "consultation": [
-                "consultation",
-                "consulting",
+            "commitment": [
+                "commitment",
+                "compliance",
+                "effectiveness",
+                "integrity",
+                "responsibility",
+                "sociability",
+                "sustainability",
+                "transparency"
+            ],
+            "option": [
+                "option"
+            ],
+            "work": [
+                "work",
+                "working"
+            ],
+            "completion": [
+                "completion",
+                "construction",
+                "creation",
+                "operation",
+                "transportation"
+            ],
+            "acclimatisation": [
+                "acclimatisation",
+                "collaboration",
+                "communication",
+                "communicator",
+                "cooperation",
+                "coordination",
+                "customisation",
                 "implementation",
-                "recommendation"
+                "initiation",
+                "miscommunication",
+                "modernization",
+                "operation",
+                "ordination",
+                "organisation",
+                "organization",
+                "rapport"
             ],
-            "thing": [
-                "thing"
+            "contact": [
+                "contact"
             ],
-            "town": [
-                "town",
-                "village",
-                "villager"
-            ],
-            "area": [
-                "area"
-            ],
-            "owner": [
-                "owner",
-                "proprietor"
-            ],
-            "package": [
-                "package"
-            ],
-            "value": [
-                "value"
+            "appreciation": [
+                "appreciation",
+                "dedication",
+                "encouragement"
             ],
             "memory": [
                 "memory"
             ],
-            "consultancy": [
-                "consultancy",
-                "consultant",
-                "consultation",
-                "consulting",
-                "management",
-                "managment"
+            "expertise": [
+                "expertise",
+                "familiarity",
+                "foresight",
+                "knowledge",
+                "understanding"
             ],
-            "future": [
-                "future"
+            "client": [
+                "client",
+                "customer"
             ],
-            "job": [
-                "job"
+            "biking": [
+                "biking",
+                "campfire",
+                "hiking",
+                "treking",
+                "trekking"
             ],
-            "porter": [
-                "porter",
-                "porteur"
+            "destination": [
+                "destination",
+                "location"
             ],
-            "house": [
-                "house",
-                "teahouse"
+            "landscape": [
+                "landscape"
             ],
-            "question": [
-                "question"
+            "airfare": [
+                "airfare",
+                "flight"
             ],
-            "responce": [
-                "responce",
-                "response"
+            "level": [
+                "level"
             ],
-            "month": [
-                "month",
-                "week",
-                "weekend"
+            "brother": [
+                "brother",
+                "father",
+                "sister"
             ],
             "profession": [
                 "profession",
                 "professional",
                 "professionalism"
             ],
-            "traveler": [
-                "traveler",
-                "traveller"
+            "end": [
+                "end"
+            ],
+            "owner": [
+                "owner",
+                "proprietor"
+            ],
+            "house": [
+                "house",
+                "teahouse"
+            ],
+            "hospitality": [
+                "hospitality"
+            ],
+            "dinner": [
+                "dinner",
+                "lunch"
+            ],
+            "help": [
+                "help"
+            ],
+            "start": [
+                "start"
+            ],
+            "driver": [
+                "driver"
+            ],
+            "safety": [
+                "safety"
+            ],
+            "corporation": [
+                "corporation",
+                "education",
+                "institute",
+                "institution",
+                "organisation",
+                "organization"
+            ],
+            "journey": [
+                "journey",
+                "journeying"
+            ],
+            "booking": [
+                "booking",
+                "itinerary",
+                "ticketing"
+            ],
+            "comprehension": [
+                "comprehension",
+                "conception",
+                "description",
+                "explanation",
+                "formality"
+            ],
+            "time": [
+                "time"
+            ],
+            "quality": [
+                "quality"
+            ],
+            "lifetime": [
+                "lifetime"
+            ],
+            "month": [
+                "month",
+                "week",
+                "weekend"
             ],
             "trek": [
                 "trek",
                 "trekker"
+            ],
+            "thing": [
+                "thing"
+            ],
+            "tourism": [
+                "tourism",
+                "tourist"
+            ],
+            "life": [
+                "life"
+            ],
+            "detour": [
+                "detour",
+                "excursion",
+                "trip"
+            ],
+            "question": [
+                "question"
+            ],
+            "price": [
+                "price"
+            ],
+            "mountain": [
+                "mountain",
+                "mountaineer",
+                "mountaineering"
+            ],
+            "city": [
+                "city"
+            ],
+            "car": [
+                "car"
+            ],
+            "package": [
+                "package"
+            ],
+            "job": [
+                "job"
             ],
             "cooperation": [
                 "cooperation",
@@ -1124,6 +1134,254 @@
             ],
             "planning": [
                 "planning"
+            ],
+            "base": [
+                "base",
+                "basecamp"
+            ],
+            "bus": [
+                "bus"
+            ],
+            "operator": [
+                "operator"
+            ],
+            "minute": [
+                "minute"
+            ],
+            "guidance": [
+                "guidance",
+                "guideline"
+            ],
+            "agent": [
+                "agent"
+            ],
+            "daughter": [
+                "daughter",
+                "husband",
+                "mother",
+                "sister",
+                "son",
+                "wife"
+            ],
+            "porter": [
+                "porter",
+                "porteur"
+            ],
+            "family": [
+                "family"
+            ],
+            "guesthouse": [
+                "guesthouse",
+                "hostel",
+                "hotel"
+            ],
+            "vehicle": [
+                "vehicle"
+            ],
+            "guy": [
+                "guy"
+            ],
+            "visit": [
+                "visit",
+                "visita"
+            ],
+            "weather": [
+                "weather"
+            ],
+            "team": [
+                "team",
+                "team-"
+            ],
+            "Nepalese": [
+                "Nepalese",
+                "himalaya",
+                "himalayan",
+                "kathmandu",
+                "nepal"
+            ],
+            "standpoint": [
+                "standpoint",
+                "view"
+            ],
+            "trail": [
+                "trail"
+            ],
+            "accommodation": [
+                "accommodation",
+                "accomodation"
+            ],
+            "region": [
+                "region"
+            ],
+            "chai": [
+                "chai",
+                "coffee",
+                "tea"
+            ],
+            "airport": [
+                "airport"
+            ],
+            "plan": [
+                "plan",
+                "plan-"
+            ],
+            "hand": [
+                "hand"
+            ],
+            "member": [
+                "member"
+            ],
+            "afternoon": [
+                "afternoon",
+                "evening",
+                "morning",
+                "night"
+            ],
+            "consulting": [
+                "consulting",
+                "development",
+                "implementation",
+                "management",
+                "managment"
+            ],
+            "camp": [
+                "camp"
+            ],
+            "explanation": [
+                "explanation",
+                "recommendation",
+                "suggestion"
+            ],
+            "place": [
+                "place"
+            ],
+            "expectation": [
+                "expectation"
+            ],
+            "activity": [
+                "activity"
+            ],
+            "problem": [
+                "problem"
+            ],
+            "consideration": [
+                "consideration",
+                "consultation",
+                "implementation",
+                "recommendation",
+                "suggestion"
+            ],
+            "thank": [
+                "thank",
+                "thankyou"
+            ],
+            "enroute": [
+                "enroute",
+                "route"
+            ],
+            "consultancy": [
+                "consultancy",
+                "consultant",
+                "consultation",
+                "consulting",
+                "management",
+                "managment"
+            ],
+            "service": [
+                "service"
+            ],
+            "world": [
+                "world"
+            ],
+            "choice": [
+                "choice"
+            ],
+            "ticket": [
+                "ticket"
+            ],
+            "boyfriend": [
+                "boyfriend",
+                "girlfriend",
+                "husband"
+            ],
+            "guide": [
+                "guide",
+                "guider",
+                "honeyguide"
+            ],
+            "group": [
+                "group"
+            ],
+            "country": [
+                "country",
+                "nation"
+            ],
+            "experience": [
+                "experience",
+                "experience-",
+                "expertise",
+                "inexperience",
+                "knowledge"
+            ],
+            "altitude": [
+                "altitude"
+            ],
+            "consultation": [
+                "consultation",
+                "consulting",
+                "implementation",
+                "recommendation"
+            ],
+            "tour": [
+                "tour"
+            ],
+            "condition": [
+                "condition"
+            ],
+            "offroad": [
+                "offroad",
+                "road"
+            ],
+            "finish": [
+                "finish",
+                "finishing"
+            ],
+            "town": [
+                "town",
+                "village",
+                "villager"
+            ],
+            "adventure": [
+                "adventure",
+                "adventurer"
+            ],
+            "person": [
+                "person"
+            ],
+            "expedition": [
+                "expedition"
+            ],
+            "day": [
+                "day"
+            ],
+            "hike": [
+                "hike",
+                "hiker"
+            ],
+            "agency": [
+                "agency"
+            ],
+            "moment": [
+                "moment"
+            ],
+            "company": [
+                "company"
+            ],
+            "way": [
+                "way"
+            ],
+            "people": [
+                "people"
             ],
             "\u203c\ufe0f": [
                 "\u203c\ufe0f",
@@ -1168,269 +1426,24 @@
                 "\ud83e\udd1e",
                 "\ud83e\udd23"
             ],
-            "meal": [
-                "meal",
-                "mealtime"
-            ],
-            "end": [
-                "end"
-            ],
             "dream": [
                 "dream"
             ],
-            "detail": [
-                "detail"
+            "food": [
+                "food"
             ],
-            "agency": [
-                "agency"
-            ],
-            "price": [
-                "price"
-            ],
-            "explanation": [
-                "explanation",
-                "formality",
-                "suggestion"
-            ],
-            "airport": [
-                "airport"
-            ],
-            "level": [
-                "level"
-            ],
-            "guy": [
-                "guy"
-            ],
-            "tourism": [
-                "tourism",
-                "tourist"
-            ],
-            "adventure": [
-                "adventure",
-                "adventurer"
-            ],
-            "lot": [
-                "lot"
-            ],
-            "guidance": [
-                "guidance",
-                "guideline"
-            ],
-            "booking": [
-                "booking",
-                "itinerary",
-                "ticketing"
-            ],
-            "plan": [
-                "plan",
-                "plan-"
-            ],
-            "camp": [
-                "camp"
-            ],
-            "world": [
-                "world"
-            ],
-            "choice": [
-                "choice"
-            ],
-            "hand": [
-                "hand"
-            ],
-            "family": [
-                "family"
-            ],
-            "vehicle": [
-                "vehicle"
-            ],
-            "accommodation": [
-                "accommodation",
-                "accomodation"
-            ],
-            "weather": [
-                "weather"
-            ],
-            "client": [
-                "client",
-                "customer"
-            ],
-            "hospitality": [
-                "hospitality"
-            ],
-            "condition": [
-                "condition"
-            ],
-            "consulting": [
-                "consulting",
-                "development",
-                "implementation",
-                "management",
-                "managment"
-            ],
-            "quality": [
-                "quality"
-            ],
-            "ticket": [
-                "ticket"
-            ],
-            "safety": [
-                "safety"
-            ],
-            "journey": [
-                "journey",
-                "journeying"
-            ],
-            "contact": [
-                "contact"
-            ],
-            "experience": [
-                "experience",
-                "experience-",
-                "expertise",
-                "inexperience",
-                "knowledge"
-            ],
-            "mountain": [
-                "mountain",
-                "mountaineer",
-                "mountaineering"
-            ],
-            "start": [
-                "start"
-            ],
-            "fun": [
-                "fun"
-            ],
-            "member": [
-                "member"
-            ],
-            "biking": [
-                "biking",
-                "campfire",
-                "hiking",
-                "treking",
-                "trekking"
-            ],
-            "appreciation": [
-                "appreciation",
-                "dedication",
-                "encouragement"
-            ],
-            "region": [
-                "region"
-            ],
-            "conception": [
-                "conception",
-                "distinction",
-                "exception",
-                "hesitation",
-                "relation"
-            ],
-            "lifetime": [
-                "lifetime"
-            ],
-            "consideration": [
-                "consideration",
-                "consultation",
-                "implementation",
-                "recommendation",
-                "suggestion"
-            ],
-            "culture": [
-                "culture",
-                "culture-",
-                "kulture"
-            ],
-            "service": [
-                "service"
-            ],
-            "life": [
-                "life"
-            ],
-            "assistance": [
-                "assistance",
-                "support"
-            ],
-            "thank": [
-                "thank",
-                "thankyou"
-            ],
-            "expectation": [
-                "expectation"
-            ],
-            "people": [
-                "people"
-            ],
-            "group": [
-                "group"
-            ],
-            "problem": [
-                "problem"
-            ],
-            "day": [
-                "day"
-            ],
-            "driver": [
-                "driver"
-            ],
-            "expertise": [
-                "expertise",
-                "familiarity",
-                "foresight",
-                "knowledge",
-                "understanding"
-            ],
-            "option": [
-                "option"
+            "value": [
+                "value"
             ],
             "arrangement": [
                 "arrangement"
             ],
-            "trail": [
-                "trail"
+            "meal": [
+                "meal",
+                "mealtime"
             ],
-            "expedition": [
-                "expedition"
-            ],
-            "heli": [
-                "heli",
-                "helicopter"
-            ],
-            "agent": [
-                "agent"
-            ],
-            "base": [
-                "base",
-                "basecamp"
-            ],
-            "staf": [
-                "staf",
-                "staff"
-            ],
-            "airfare": [
-                "airfare",
-                "flight"
-            ],
-            "activity": [
-                "activity"
-            ],
-            "need": [
-                "need"
-            ],
-            "offroad": [
-                "offroad",
-                "road"
-            ],
-            "Nepalese": [
-                "Nepalese",
-                "himalaya",
-                "himalayan",
-                "kathmandu",
-                "nepal"
-            ],
-            "attention": [
-                "attention",
-                "attentiveness"
+            "holiday": [
+                "holiday"
             ],
             "trave": [
                 "trave",
@@ -1438,34 +1451,50 @@
                 "traveling",
                 "travelling"
             ],
-            "way": [
-                "way"
+            "care": [
+                "care"
             ],
-            "altitude": [
-                "altitude"
+            "traveler": [
+                "traveler",
+                "traveller"
             ],
-            "finish": [
-                "finish",
-                "finishing"
+            "assistance": [
+                "assistance",
+                "support"
             ],
-            "chai": [
-                "chai",
-                "coffee",
-                "tea"
+            "stay": [
+                "stay"
             ],
-            "history": [
-                "history"
+            "heli": [
+                "heli",
+                "helicopter"
             ],
-            "team": [
-                "team",
-                "team-"
+            "detail": [
+                "detail"
             ],
-            "work": [
-                "work",
-                "working"
+            "culture": [
+                "culture",
+                "culture-",
+                "kulture"
             ],
-            "city": [
-                "city"
+            "future": [
+                "future"
+            ],
+            "area": [
+                "area"
+            ],
+            "attention": [
+                "attention",
+                "attentiveness"
+            ],
+            "transit": [
+                "transit",
+                "transport",
+                "transportation"
+            ],
+            "staf": [
+                "staf",
+                "staff"
             ]
         }
     },
@@ -1477,41 +1506,41 @@
             "company": 56,
             "agency": 49,
             "guide": 48,
-            "experience": 37,
             "ticket": 37,
-            "time": 35,
+            "experience": 37,
             "money": 35,
+            "time": 35,
             "day": 32,
             "driver": 31,
             "application": 30,
             "seat": 28,
-            "people": 27,
             "trip": 27,
             "client": 27,
+            "people": 27,
             "place": 26,
             "trek": 25,
             "tour": 20,
-            "booking": 18,
             "hour": 18,
             "overprice": 18,
             "staff": 18,
+            "booking": 18,
             "hotel": 17,
             "agent": 16,
-            "package": 15,
             "jeep": 15,
             "number": 15,
+            "package": 15,
             "month": 13,
             "airfare": 13,
-            "person": 12,
-            "location": 12,
             "office": 12,
+            "person": 12,
             "evening": 12,
-            "\ud83c\udffb": 11,
+            "location": 12,
             "star": 11,
-            "passenger": 11,
-            "tourist": 11,
             "refund": 11,
+            "tourist": 11,
             "way": 11,
+            "\ud83c\udffb": 11,
+            "passenger": 11,
             "journey": 11
         },
         "associated_adjectives": {
@@ -1690,11 +1719,90 @@
             }
         },
         "word_groups": {
+            "money": [
+                "money"
+            ],
+            "tour": [
+                "tour"
+            ],
+            "month": [
+                "month",
+                "week",
+                "year"
+            ],
+            "trek": [
+                "trek",
+                "trekker"
+            ],
+            "star": [
+                "star"
+            ],
+            "office": [
+                "office"
+            ],
+            "guide": [
+                "guide"
+            ],
+            "seat": [
+                "seat",
+                "seater"
+            ],
+            "trip": [
+                "trip"
+            ],
+            "jeep": [
+                "jeep"
+            ],
+            "airfare": [
+                "airfare",
+                "flight",
+                "layover"
+            ],
+            "refund": [
+                "refund"
+            ],
+            "number": [
+                "number"
+            ],
+            "person": [
+                "person"
+            ],
+            "hour": [
+                "hour"
+            ],
+            "day": [
+                "day"
+            ],
+            "tourist": [
+                "tourist"
+            ],
+            "client": [
+                "client",
+                "customer"
+            ],
+            "agency": [
+                "agency"
+            ],
+            "place": [
+                "place"
+            ],
+            "package": [
+                "package"
+            ],
+            "hotel": [
+                "hotel"
+            ],
             "company": [
                 "company"
             ],
-            "service": [
-                "service"
+            "way": [
+                "way"
+            ],
+            "people": [
+                "people"
+            ],
+            "bus": [
+                "bus"
             ],
             "\ud83c\udffb": [
                 "\ud83c\udffb",
@@ -1702,6 +1810,12 @@
                 "\ud83d\ude1e",
                 "\ud83d\ude21",
                 "\ud83e\uddd0"
+            ],
+            "passenger": [
+                "passenger"
+            ],
+            "service": [
+                "service"
             ],
             "application": [
                 "application",
@@ -1717,132 +1831,47 @@
                 "recommendation",
                 "regulation"
             ],
-            "people": [
-                "people"
-            ],
-            "person": [
-                "person"
-            ],
-            "star": [
-                "star"
-            ],
-            "trip": [
-                "trip"
-            ],
-            "booking": [
-                "booking",
-                "itinerary",
-                "ticketing"
-            ],
-            "place": [
-                "place"
-            ],
-            "passenger": [
-                "passenger"
-            ],
-            "hour": [
-                "hour"
-            ],
-            "day": [
-                "day"
-            ],
-            "driver": [
-                "driver"
-            ],
-            "package": [
-                "package"
-            ],
-            "bus": [
-                "bus"
-            ],
-            "experience": [
-                "experience",
-                "experience-"
-            ],
-            "jeep": [
-                "jeep"
-            ],
-            "time": [
-                "time"
-            ],
-            "number": [
-                "number"
-            ],
-            "overprice": [
-                "overprice",
-                "price"
-            ],
-            "client": [
-                "client",
-                "customer"
-            ],
-            "staff": [
-                "staff"
-            ],
-            "hotel": [
-                "hotel"
-            ],
-            "agent": [
-                "agent"
-            ],
-            "month": [
-                "month",
-                "week",
-                "year"
-            ],
-            "location": [
-                "location"
-            ],
-            "tourist": [
-                "tourist"
-            ],
-            "trek": [
-                "trek",
-                "trekker"
+            "journey": [
+                "journey"
             ],
             "ticket": [
                 "ticket"
             ],
-            "airfare": [
-                "airfare",
-                "flight",
-                "layover"
+            "agent": [
+                "agent"
             ],
-            "refund": [
-                "refund"
-            ],
-            "office": [
-                "office"
-            ],
-            "travel": [
-                "travel"
-            ],
-            "tour": [
-                "tour"
-            ],
-            "guide": [
-                "guide"
-            ],
-            "money": [
-                "money"
-            ],
-            "way": [
-                "way"
+            "overprice": [
+                "overprice",
+                "price"
             ],
             "evening": [
                 "evening",
                 "morning",
                 "night"
             ],
-            "agency": [
-                "agency"
+            "staff": [
+                "staff"
             ],
-            "journey": [
-                "journey"
+            "travel": [
+                "travel"
             ],
-            "seat": [
-                "seat",
-                "seater"
+            "driver": [
+                "driver"
+            ],
+            "booking": [
+                "booking",
+                "itinerary",
+                "ticketing"
+            ],
+            "location": [
+                "location"
+            ],
+            "experience": [
+                "experience",
+                "experience-"
+            ],
+            "time": [
+                "time"
             ]
         }
     }

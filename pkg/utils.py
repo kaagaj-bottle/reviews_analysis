@@ -5,6 +5,7 @@ import json
 import spacy
 from tqdm import tqdm
 import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 
 def write_to_file(data: Dict, file_path: Union[Path, str]) -> None:
@@ -57,6 +58,53 @@ def get_all_text_data(data, rating=False):
     return result
 
 
+def get_word_groups(words: List[str], nlp, threshold=0.5):
+
+    word_vectors = [nlp(word).vector for word in words]
+
+    similarity_matrix = cosine_similarity(word_vectors)
+    groups = set()
+    print(similarity_matrix.shape)
+
+    for idx1, word in enumerate(words):
+        word_group = [word]
+        for idx2, cos_value in enumerate(similarity_matrix[idx1]):
+            if idx1 != idx2 and cos_value >= threshold:
+                word_group.append(words[idx2])
+
+        groups.add(tuple(sorted(word_group)))
+
+    return groups
+
+
+def get_filtered_word_groups(groups):
+    filtered_groups = []
+
+    for group in groups:
+        is_subset = False
+
+        for other_group in groups:
+            if group != other_group:
+                if set(group).issubset(set(other_group)):
+                    is_subset = True
+                    break
+        if not is_subset:
+            filtered_groups.append(list(group))
+    return filtered_groups
+
+
+def get_filtered_word_frequency(word_frequency, word_groups):
+    filtered_word_frequency = defaultdict(int)
+    for group in word_groups:
+        key_word = group[0]
+        for word in group:
+            filtered_word_frequency[key_word] += word_frequency[word]
+    filtered_word_frequency = dict(
+        sorted(filtered_word_frequency.items(), key=lambda x: x[1], reverse=True)
+    )
+    return filtered_word_frequency
+
+
 def get_nouns_by_freq(
     rating_text_dict, nlp, rating_value, top_n_word, top_n_association
 ):
@@ -75,19 +123,26 @@ def get_nouns_by_freq(
                     if not (child.is_punct or child.is_stop) and child.pos_ == "ADJ":
                         associated_adjectives[token.lemma_].append(child.lemma_)
 
-    word_frequency = dict(
-        sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)
+    word_groups = get_word_groups(list(word_frequency.keys()), nlp)
+
+    filtered_word_groups = get_filtered_word_groups(word_groups)
+
+    # word_frequency = dict(
+    #     sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)
+    # )
+
+    filtered_word_frequency = get_filtered_word_frequency(
+        word_frequency, filtered_word_groups
     )
+
     median_word_frequency = np.percentile(list(word_frequency.values()), top_n_word)
+
     filtered_word_frequency = {
         key: value
         for key, value in word_frequency.items()
         if value >= median_word_frequency
     }
 
-    filtered_word_frequency = dict(
-        sorted(filtered_word_frequency.items(), key=lambda x: x[1], reverse=True)
-    )
     filtered_associations = defaultdict(list)
     for key, value in associated_adjectives.items():
         if key in filtered_word_frequency:
@@ -103,7 +158,7 @@ def get_nouns_by_freq(
                 ]
             )
 
-    return filtered_word_frequency, filtered_associations
+    return filtered_word_frequency, filtered_associations, filtered_word_groups
 
 
 def create_rating_text_dict(data):
@@ -136,7 +191,7 @@ def get_refined_data(
 
     print(f"processing for classes {rating_values}")
     for value in tqdm(rating_values):
-        word_frequency, associated_adjectives = get_nouns_by_freq(
+        word_frequency, associated_adjectives, word_groups = get_nouns_by_freq(
             rating_text_dict=rating_text_dict,
             nlp=nlp,
             rating_value=value,
@@ -146,6 +201,7 @@ def get_refined_data(
         result[value] = {
             "word_freqs": word_frequency,
             "associated_adjectives": associated_adjectives,
+            "word_groups": word_groups
         }
 
     write_to_file(data=result, file_path=output_file_path)

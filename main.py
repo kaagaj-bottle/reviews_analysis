@@ -16,7 +16,7 @@ def main():
         model="en_core_web_md",
         top_n_word=95,
         top_n_association=5,
-        threshold=0.7
+        threshold=0.8
     )
 
 

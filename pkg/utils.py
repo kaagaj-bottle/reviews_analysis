@@ -58,13 +58,12 @@ def get_all_text_data(data, rating=False):
     return result
 
 
-def get_word_groups(words: List[str], nlp, threshold=0.5):
+def get_word_groups(words: List[str], nlp, threshold):
 
     word_vectors = [nlp(word).vector for word in words]
 
     similarity_matrix = cosine_similarity(word_vectors)
     groups = set()
-    print(similarity_matrix.shape)
 
     for idx1, word in enumerate(words):
         word_group = [word]
@@ -78,7 +77,7 @@ def get_word_groups(words: List[str], nlp, threshold=0.5):
 
 
 def get_filtered_word_groups(groups):
-    filtered_groups = []
+    unique_groups = []
 
     for group in groups:
         is_subset = False
@@ -89,8 +88,8 @@ def get_filtered_word_groups(groups):
                     is_subset = True
                     break
         if not is_subset:
-            filtered_groups.append(list(group))
-    return filtered_groups
+            unique_groups.append(list(group))
+    return unique_groups
 
 
 def get_filtered_word_frequency(word_frequency, word_groups):
@@ -99,14 +98,12 @@ def get_filtered_word_frequency(word_frequency, word_groups):
         key_word = group[0]
         for word in group:
             filtered_word_frequency[key_word] += word_frequency[word]
-    filtered_word_frequency = dict(
-        sorted(filtered_word_frequency.items(), key=lambda x: x[1], reverse=True)
-    )
+
     return filtered_word_frequency
 
 
 def get_nouns_by_freq(
-    rating_text_dict, nlp, rating_value, top_n_word, top_n_association
+    rating_text_dict, nlp, rating_value, top_n_word, top_n_association, threshold
 ):
     texts = rating_text_dict[rating_value]
     docs = [nlp(text) for text in texts]
@@ -123,25 +120,32 @@ def get_nouns_by_freq(
                     if not (child.is_punct or child.is_stop) and child.pos_ == "ADJ":
                         associated_adjectives[token.lemma_].append(child.lemma_)
 
-    word_groups = get_word_groups(list(word_frequency.keys()), nlp)
+    word_groups = get_word_groups(list(word_frequency.keys()), nlp, threshold)
 
-    filtered_word_groups = get_filtered_word_groups(word_groups)
+    unique_word_groups = get_filtered_word_groups(word_groups)
 
     # word_frequency = dict(
     #     sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)
     # )
 
     filtered_word_frequency = get_filtered_word_frequency(
-        word_frequency, filtered_word_groups
+        word_frequency, unique_word_groups
     )
 
     median_word_frequency = np.percentile(list(word_frequency.values()), top_n_word)
 
     filtered_word_frequency = {
         key: value
-        for key, value in word_frequency.items()
+        for key, value in filtered_word_frequency.items()
         if value >= median_word_frequency
     }
+
+    filtered_word_frequency = dict(
+        sorted(filtered_word_frequency.items(), key=lambda x: x[1], reverse=True)
+    )
+    filtered_word_group_dict = create_filtered_word_group_dict(
+        unique_word_groups, filtered_word_frequency
+    )
 
     filtered_associations = defaultdict(list)
     for key, value in associated_adjectives.items():
@@ -157,8 +161,15 @@ def get_nouns_by_freq(
                     :temp_top_n_association
                 ]
             )
+    return filtered_word_frequency, filtered_associations, filtered_word_group_dict
 
-    return filtered_word_frequency, filtered_associations, filtered_word_groups
+
+def create_filtered_word_group_dict(unique_word_groups, filtered_word_frequency):
+    word_group_dict = defaultdict(list)
+    for group in unique_word_groups:
+        if group[0] in filtered_word_frequency:
+            word_group_dict[group[0]] = group
+    return word_group_dict
 
 
 def create_rating_text_dict(data):
@@ -181,6 +192,7 @@ def get_refined_data(
     model="en_core_web_sm",
     top_n_word=25,
     top_n_association=5,
+    threshold=0.7,
 ):
     reviews = read_json_file(path=raw_reviews_path)
 
@@ -197,11 +209,12 @@ def get_refined_data(
             rating_value=value,
             top_n_word=top_n_word,
             top_n_association=top_n_association,
+            threshold=threshold,
         )
         result[value] = {
             "word_freqs": word_frequency,
             "associated_adjectives": associated_adjectives,
-            "word_groups": word_groups
+            "word_groups": word_groups,
         }
 
     write_to_file(data=result, file_path=output_file_path)

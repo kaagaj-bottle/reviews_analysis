@@ -12,10 +12,11 @@ def main():
     get_refined_data(
         raw_reviews_path=input_file,
         output_file_path=output_file,
-        rating_values=["bad"],
+        rating_values=["good","bad"],
         model="en_core_web_md",
         top_n_word=95,
         top_n_association=5,
+        threshold=0.7
     )
 
 

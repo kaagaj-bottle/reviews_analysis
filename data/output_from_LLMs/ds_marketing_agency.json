@@ -1,68 +1,138 @@
 {
   "good": {
-    "StrongTeam": [
-      "team",
-      "great",
-      "amazing",
-      "professional",
-      "fantastic"
-    ],
-    "QualityService": [
-      "quality",
-      "high",
-      "great",
-      "good",
-      "amazing"
-    ],
-    "EffectiveCommunication": [
-      "communication",
-      "collaboration",
-      "strategizing",
-      "communicating"
-    ],
-    "PositiveExperience": [
-      "experience",
-      "great",
-      "good",
-      "fantastic",
-      "amazing"
-    ],
-    "SuccessfulCampaigns": [
-      "campaign",
-      "digital",
-      "social",
-      "effective",
-      "successful"
-    ]
+    "TeamQuality": {
+      "team": [
+        "team",
+        "great",
+        "amazing",
+        "professional",
+        "fantastic"
+      ],
+      "collaboration": [
+        "collaboration",
+        "great",
+        "continued",
+        "smooth"
+      ]
+    },
+    "ServiceExcellence": {
+      "quality": [
+        "quality",
+        "high",
+        "great",
+        "good",
+        "amazing"
+      ],
+      "value": [
+        "value",
+        "great",
+        "good",
+        "excellent"
+      ]
+    },
+    "CommunicationEffectiveness": {
+      "communication": [
+        "communicating",
+        "collaboration",
+        "strategizing",
+        "communicating"
+      ],
+      "feedback": [
+        "feedback",
+        "positive",
+        "great",
+        "helpful"
+      ]
+    },
+    "PositiveClientExperience": {
+      "experience": [
+        "experience",
+        "great",
+        "good",
+        "fantastic",
+        "amazing"
+      ],
+      "client": [
+        "client",
+        "new",
+        "potential",
+        "great"
+      ]
+    },
+    "SuccessfulMarketingCampaigns": {
+      "campaign": [
+        "campaign",
+        "digital",
+        "social",
+        "effective",
+        "successful"
+      ],
+      "advertising": [
+        "advertising",
+        "online",
+        "social"
+      ]
+    }
   },
   "bad": {
-    "PoorServiceQuality": [
-      "service",
-      "poor",
-      "bad",
-      "subpar"
-    ],
-    "Unprofessionalism": [
-      "company",
-      "unprofessional",
-      "unstructured"
-    ],
-    "CommunicationIssues": [
-      "communication",
-      "wrong",
-      "poor"
-    ],
-    "NegativeExperience": [
-      "experience",
-      "horrible",
-      "disappointing",
-      "negative",
-      "terrible"
-    ],
-    "TrustIssues": [
-      "scam",
-      "complete",
-      "huge"
-    ]
+    "ServiceQualityConcerns": {
+      "service": [
+        "service",
+        "poor",
+        "bad",
+        "subpar"
+      ],
+      "lack": [
+        "lack",
+        "complete"
+      ]
+    },
+    "ProfessionalismIssues": {
+      "company": [
+        "company",
+        "unprofessional",
+        "unstructured"
+      ],
+      "team": [
+        "team",
+        "incompetent"
+      ]
+    },
+    "CommunicationProblems": {
+      "communication": [
+        "communication",
+        "wrong",
+        "poor"
+      ],
+      "message": [
+        "message",
+        "upset"
+      ]
+    },
+    "NegativeClientExperience": {
+      "experience": [
+        "experience",
+        "horrible",
+        "disappointing",
+        "negative",
+        "terrible"
+      ],
+      "client": [
+        "client",
+        "potential"
+      ]
+    },
+    "TrustAndReliabilityIssues": {
+      "scam": [
+        "scam",
+        "complete",
+        "huge"
+      ],
+      "contract": [
+        "contract",
+        "initial",
+        "standard"
+      ]
+    }
   }
 }

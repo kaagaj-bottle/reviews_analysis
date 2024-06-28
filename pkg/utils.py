@@ -213,8 +213,8 @@ def get_refined_data(
         )
         result[value] = {
             "word_freqs": word_frequency,
-            "associated_adjectives": associated_adjectives,
-            "word_groups": word_groups,
+             "associated_adjectives": associated_adjectives,
+            #"word_groups": word_groups,
         }
 
     write_to_file(data=result, file_path=output_file_path)

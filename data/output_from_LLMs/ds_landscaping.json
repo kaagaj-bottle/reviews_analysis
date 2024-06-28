@@ -1,0 +1,118 @@
+{
+  "good": {
+    "TechnicalProficiency": [
+      "disservice",
+      "aeration",
+      "job",
+      "hardscaping",
+      "work",
+      "hardscape",
+      "alteration",
+      "beautification",
+      "design",
+      "quality",
+      "maintenance",
+      "installation",
+      "drainage",
+      "turf",
+      "plant",
+      "sprinkler"
+    ],
+    "CustomerService": [
+      "team",
+      "crew",
+      "company",
+      "client",
+      "communication",
+      "experience",
+      "people",
+      "staff",
+      "owner",
+      "professional",
+      "quote",
+      "attention",
+      "analysis",
+      "question",
+      "family",
+      "thank"
+    ],
+    "ValueAndPricing": [
+      "price",
+      "value",
+      "pricing",
+      "estimate",
+      "quote",
+      "fair",
+      "reasonable",
+      "affordable"
+    ],
+    "ProjectManagement": [
+      "project",
+      "process",
+      "consideration",
+      "consultation",
+      "budget",
+      "future",
+      "result",
+      "creation",
+      "building",
+      "construction",
+      "installation",
+      "reconstruction",
+      "renovation"
+    ],
+    "TimingAndScheduling": [
+      "month",
+      "time",
+      "day",
+      "hour",
+      "reschedule",
+      "schedule"
+    ]
+  },
+  "bad": {
+    "PoorServiceQuality": [
+      "service",
+      "work",
+      "job",
+      "landscape",
+      "project",
+      "yard",
+      "quality",
+      "maintenace",
+      "sprinkler",
+      "grass"
+    ],
+    "CommunicationIssues": [
+      "phone",
+      "text",
+      "email",
+      "call",
+      "communicating",
+      "message",
+      "response",
+      "appointment"
+    ],
+    "TimeManagement": [
+      "month",
+      "time",
+      "day",
+      "hour",
+      "schedule",
+      "reschedule"
+    ],
+    "CompanyOperations": [
+      "company",
+      "business",
+      "administration",
+      "manager",
+      "owner",
+      "worker"
+    ],
+    "PricingConcerns": [
+      "price",
+      "quote",
+      "money"
+    ]
+  }
+}

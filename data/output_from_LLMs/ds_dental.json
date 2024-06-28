@@ -1,0 +1,166 @@
+{
+  "good": {
+    "Experienced Dentists": [
+      "dentist",
+      "experience",
+      "expertise",
+      "professional",
+      "skill",
+      "knowledge"
+    ],
+    "Friendly and Supportive Staff": [
+      "staff",
+      "friendly",
+      "supportive",
+      "helpful",
+      "team",
+      "assistant"
+    ],
+    "Efficient and Timely Appointments": [
+      "appointment",
+      "time",
+      "schedule",
+      "rescheduling",
+      "prompt",
+      "efficient"
+    ],
+    "Clean and Comfortable Facilities": [
+      "office",
+      "clinic",
+      "atmosphere",
+      "clean",
+      "comfortable",
+      "welcoming"
+    ],
+    "Comprehensive Patient Care": [
+      "care",
+      "patient",
+      "comprehensive",
+      "thorough",
+      "attention",
+      "detail"
+    ],
+    "Effective Communication": [
+      "communication",
+      "clear",
+      "informative",
+      "open",
+      "helpful",
+      "advice"
+    ],
+    "Advanced Dental Technology": [
+      "technology",
+      "equipment",
+      "modern",
+      "advanced",
+      "innovative",
+      "sophisticated"
+    ],
+    "Positive Patient Experiences": [
+      "experience",
+      "positive",
+      "enjoyable",
+      "pleasant",
+      "satisfying",
+      "rewarding"
+    ],
+    "Affordable and Transparent Pricing": [
+      "price",
+      "affordable",
+      "reasonable",
+      "transparent",
+      "fair",
+      "clear"
+    ],
+    "Family-Friendly Environment": [
+      "family",
+      "friendly",
+      "child",
+      "kid",
+      "welcoming",
+      "inclusive"
+    ]
+  },
+  "bad": {
+    "Inexperienced or Unprofessional Dentists": [
+      "dentist",
+      "inexperienced",
+      "unprofessional",
+      "poor",
+      "inadequate",
+      "unsatisfactory"
+    ],
+    "Rude or Unhelpful Staff": [
+      "staff",
+      "rude",
+      "unhelpful",
+      "unfriendly",
+      "disrespectful",
+      "uncooperative"
+    ],
+    "Disorganized or Delayed Appointments": [
+      "appointment",
+      "time",
+      "schedule",
+      "delay",
+      "waiting",
+      "inconvenience"
+    ],
+    "Unsanitary or Uncomfortable Facilities": [
+      "office",
+      "clinic",
+      "atmosphere",
+      "unsanitary",
+      "uncomfortable",
+      "unpleasant"
+    ],
+    "Lack of Comprehensive Care": [
+      "care",
+      "lack",
+      "incomplete",
+      "superficial",
+      "neglect",
+      "oversight"
+    ],
+    "Poor or Misleading Communication": [
+      "communication",
+      "poor",
+      "misleading",
+      "confusing",
+      "unclear",
+      "deceptive"
+    ],
+    "Outdated or Faulty Equipment": [
+      "equipment",
+      "outdated",
+      "faulty",
+      "inefficient",
+      "malfunction",
+      "unreliable"
+    ],
+    "Negative Patient Experiences": [
+      "experience",
+      "negative",
+      "unpleasant",
+      "frustrating",
+      "disappointing",
+      "stressful"
+    ],
+    "High Costs and Hidden Fees": [
+      "cost",
+      "price",
+      "high",
+      "expensive",
+      "hidden",
+      "unreasonable"
+    ],
+    "Unaccommodating to Families": [
+      "family",
+      "unaccommodating",
+      "child",
+      "kid",
+      "unfriendly",
+      "exclusive"
+    ]
+  }
+}

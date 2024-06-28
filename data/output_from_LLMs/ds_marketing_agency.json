@@ -1,0 +1,68 @@
+{
+  "good": {
+    "StrongTeam": [
+      "team",
+      "great",
+      "amazing",
+      "professional",
+      "fantastic"
+    ],
+    "QualityService": [
+      "quality",
+      "high",
+      "great",
+      "good",
+      "amazing"
+    ],
+    "EffectiveCommunication": [
+      "communication",
+      "collaboration",
+      "strategizing",
+      "communicating"
+    ],
+    "PositiveExperience": [
+      "experience",
+      "great",
+      "good",
+      "fantastic",
+      "amazing"
+    ],
+    "SuccessfulCampaigns": [
+      "campaign",
+      "digital",
+      "social",
+      "effective",
+      "successful"
+    ]
+  },
+  "bad": {
+    "PoorServiceQuality": [
+      "service",
+      "poor",
+      "bad",
+      "subpar"
+    ],
+    "Unprofessionalism": [
+      "company",
+      "unprofessional",
+      "unstructured"
+    ],
+    "CommunicationIssues": [
+      "communication",
+      "wrong",
+      "poor"
+    ],
+    "NegativeExperience": [
+      "experience",
+      "horrible",
+      "disappointing",
+      "negative",
+      "terrible"
+    ],
+    "TrustIssues": [
+      "scam",
+      "complete",
+      "huge"
+    ]
+  }
+}

@@ -1,0 +1,1751 @@
+{
+    "good": {
+        "word_freqs": {
+            "activation": 2250,
+            "team": 1248,
+            "alteration": 1210,
+            "homepage": 957,
+            "maintenance": 945,
+            "advertising": 941,
+            "business": 905,
+            "branding": 872,
+            "advertisement": 853,
+            "marketeer": 804,
+            "month": 796,
+            "accountability": 736,
+            "experience": 647,
+            "company": 600,
+            "creation": 500,
+            "work": 495,
+            "clarification": 486,
+            "agency": 479,
+            "time": 470,
+            "client": 460,
+            "result": 452,
+            "expertise": 409,
+            "seo": 379,
+            "design": 318,
+            "project": 298,
+            "adaptability": 293,
+            "pleasure": 276,
+            "aspiration": 272,
+            "approachability": 261,
+            "collaboration": 259,
+            "strategizing": 255,
+            "value": 251,
+            "application": 246,
+            "campaign": 243,
+            "communicating": 241,
+            "brand": 235,
+            "thank": 222,
+            "quality": 213,
+            "idea": 213,
+            "medium": 213,
+            "assistance": 203,
+            "ality": 200,
+            "people": 193,
+            "consulting": 187,
+            "association": 186,
+            "web": 182,
+            "procedure": 182,
+            "way": 180,
+            "need": 174,
+            "guy": 170,
+            "content": 160,
+            "job": 154,
+            "profession": 148,
+            "advice": 147,
+            "lot": 139,
+            "site": 128,
+            "consultancy": 127,
+            "help": 124,
+            "sale": 119,
+            "product": 114,
+            "appreciation": 113,
+            "thing": 108,
+            "development": 108,
+            "day": 106,
+            "level": 105,
+            "ability": 104,
+            "presence": 100,
+            "start": 99,
+            "detail": 98,
+            "skill": 95,
+            "partner": 93,
+            "addition": 91,
+            "growth": 91,
+            "future": 90,
+            "expert": 90,
+            "ad": 89,
+            "success": 88,
+            "place": 87,
+            "change": 86,
+            "attention": 85,
+            "solution": 84,
+            "photographer": 83,
+            "event": 83,
+            "industry": 82,
+            "hand": 81,
+            "number": 79,
+            "market": 77,
+            "lead": 77,
+            "staff": 76,
+            "question": 75,
+            "insight": 71,
+            "traffic": 70,
+            "search": 68,
+            "end": 66,
+            "course": 65,
+            "implementation": 65,
+            "vision": 65,
+            "email": 63,
+            "logo": 63,
+            "explanation": 62,
+            "video": 62,
+            "issue": 62,
+            "goal": 62,
+            "opportunity": 61,
+            "ambition": 59,
+            "platform": 59,
+            "star": 58,
+            "budget": 57,
+            "price": 57,
+            "step": 57,
+            "acquisition": 56,
+            "cognition": 56,
+            "brief": 55,
+            "effort": 55,
+            "audience": 54,
+            "session": 54,
+            "training": 54,
+            "creative": 53,
+            "plan": 52,
+            "relationship": 52,
+            "delivery": 52,
+            "finish": 52,
+            "care": 49,
+            "feedback": 49,
+            "term": 48,
+            "money": 47,
+            "pr": 47
+        },
+        "associated_adjectives": {
+            "medium": {
+                "social": 130,
+                "chinese": 1,
+                "monthly": 1,
+                "retail": 1,
+                "printed": 1
+            },
+            "relationship": {
+                "great": 7,
+                "long": 5,
+                "good": 3,
+                "strong": 3,
+                "ongoing": 2
+            },
+            "team": {
+                "great": 65,
+                "amazing": 25,
+                "professional": 18,
+                "friendly": 15,
+                "fantastic": 13
+            },
+            "effort": {
+                "online": 2,
+                "conscious": 1,
+                "extra": 1,
+                "digital": 1,
+                "proactive": 1
+            },
+            "quality": {
+                "high": 52,
+                "great": 12,
+                "good": 9,
+                "amazing": 3,
+                "excellent": 3
+            },
+            "agency": {
+                "digital": 57,
+                "great": 44,
+                "good": 37,
+                "creative": 26,
+                "fantastic": 21
+            },
+            "idea": {
+                "great": 23,
+                "creative": 16,
+                "new": 12,
+                "innovative": 11,
+                "practical": 5
+            },
+            "result": {
+                "great": 33,
+                "good": 20,
+                "fantastic": 14,
+                "outstanding": 14,
+                "excellent": 11
+            },
+            "experience": {
+                "great": 49,
+                "good": 17,
+                "fantastic": 12,
+                "amazing": 10,
+                "exceptional": 9
+            },
+            "presence": {
+                "online": 49,
+                "digital": 13,
+                "engaging": 1,
+                "limited": 1,
+                "strong": 1
+            },
+            "advice": {
+                "great": 15,
+                "helpful": 5,
+                "excellent": 5,
+                "good": 4,
+                "valuable": 4
+            },
+            "expertise": {
+                "digital": 8,
+                "great": 5,
+                "technical": 4,
+                "professional": 2,
+                "creative": 1
+            },
+            "level": {
+                "high": 15,
+                "outstanding": 2,
+                "professional": 2,
+                "great": 2,
+                "excellent": 2
+            },
+            "attention": {
+                "great": 7,
+                "meticulous": 3,
+                "excellent": 2,
+                "positive": 1,
+                "individual": 1
+            },
+            "traffic": {
+                "organic": 11,
+                "right": 1,
+                "great": 1,
+                "qualified": 1,
+                "daily": 1
+            },
+            "pleasure": {
+                "absolute": 45,
+                "real": 16,
+                "true": 2,
+                "great": 1,
+                "personal": 1
+            },
+            "growth": {
+                "remarkable": 2,
+                "online": 2,
+                "significant": 2,
+                "incredible": 2,
+                "stellar": 1
+            },
+            "need": {
+                "specific": 7,
+                "unique": 4,
+                "digital": 3,
+                "ongoing": 1,
+                "emotional": 1
+            },
+            "ad": {
+                "social": 4,
+                "meta": 1,
+                "different": 1,
+                "fantastic": 1,
+                "successful": 1
+            },
+            "platform": {
+                "social": 12,
+                "good": 3,
+                "friendly": 2,
+                "new": 2,
+                "amazing": 2
+            },
+            "success": {
+                "huge": 4,
+                "great": 3,
+                "continued": 3,
+                "digital": 2,
+                "remarkable": 2
+            },
+            "solution": {
+                "good": 9,
+                "digital": 4,
+                "innovative": 4,
+                "creative": 3,
+                "complete": 2
+            },
+            "partner": {
+                "great": 7,
+                "reliable": 6,
+                "digital": 5,
+                "invaluable": 4,
+                "new": 3
+            },
+            "advertising": {
+                "online": 3,
+                "social": 3,
+                "current": 1,
+                "direct": 1,
+                "traditional": 1
+            },
+            "work": {
+                "great": 31,
+                "hard": 23,
+                "good": 16,
+                "excellent": 16,
+                "amazing": 14
+            },
+            "issue": {
+                "technical": 6,
+                "minor": 4,
+                "ongoing": 1,
+                "difficult": 1,
+                "sudden": 1
+            },
+            "project": {
+                "future": 17,
+                "multiple": 5,
+                "new": 4,
+                "digital": 3,
+                "small": 3
+            },
+            "help": {
+                "great": 11,
+                "huge": 5,
+                "expert": 2,
+                "invaluable": 2,
+                "big": 2
+            },
+            "company": {
+                "great": 61,
+                "good": 18,
+                "professional": 16,
+                "amazing": 13,
+                "fantastic": 10
+            },
+            "people": {
+                "great": 19,
+                "lovely": 17,
+                "professional": 9,
+                "good": 8,
+                "talented": 6
+            },
+            "content": {
+                "new": 3,
+                "excellent": 3,
+                "social": 2,
+                "amazing": 2,
+                "useful": 2
+            },
+            "brand": {
+                "new": 4,
+                "international": 2,
+                "different": 2,
+                "amazing": 2,
+                "dop": 1
+            },
+            "campaign": {
+                "digital": 12,
+                "social": 6,
+                "effective": 6,
+                "successful": 5,
+                "great": 4
+            },
+            "seo": {
+                "good": 6,
+                "excellent": 3,
+                "local": 3,
+                "numerous": 1,
+                "technical": 1
+            },
+            "value": {
+                "great": 9,
+                "good": 7,
+                "excellent": 4,
+                "positive": 2,
+                "high": 2
+            },
+            "business": {
+                "small": 32,
+                "new": 22,
+                "online": 8,
+                "local": 7,
+                "large": 2
+            },
+            "lead": {
+                "right": 1,
+                "creative": 1,
+                "new": 1,
+                "potential": 1,
+                "genuine": 1
+            },
+            "expert": {
+                "true": 5,
+                "absolute": 2,
+                "real": 2,
+                "digital": 2,
+                "honest": 1
+            },
+            "feedback": {
+                "positive": 8,
+                "great": 5,
+                "helpful": 1,
+                "consistent": 1,
+                "useful": 1
+            },
+            "hand": {
+                "good": 2,
+                "safe": 2,
+                "capable": 2,
+                "real": 1,
+                "seamless": 1
+            },
+            "client": {
+                "new": 13,
+                "potential": 7,
+                "great": 2,
+                "ideal": 2,
+                "large": 2
+            },
+            "job": {
+                "great": 28,
+                "fantastic": 12,
+                "excellent": 8,
+                "amazing": 7,
+                "outstanding": 4
+            },
+            "staff": {
+                "friendly": 12,
+                "great": 6,
+                "lovely": 3,
+                "helpful": 2,
+                "professional": 2
+            },
+            "video": {
+                "final": 2,
+                "new": 2,
+                "comprehensive": 1,
+                "brilliant": 1,
+                "promotional": 1
+            },
+            "time": {
+                "long": 11,
+                "great": 7,
+                "short": 5,
+                "real": 4,
+                "right": 3
+            },
+            "guy": {
+                "great": 7,
+                "good": 5,
+                "professional": 3,
+                "nice": 3,
+                "fantastic": 3
+            },
+            "design": {
+                "great": 5,
+                "graphic": 5,
+                "new": 4,
+                "good": 4,
+                "beautiful": 3
+            },
+            "search": {
+                "local": 2,
+                "organic": 2,
+                "multiple": 1,
+                "social": 1,
+                "important": 1
+            },
+            "insight": {
+                "valuable": 7,
+                "invaluable": 6,
+                "great": 5,
+                "strategic": 3,
+                "actionable": 3
+            },
+            "product": {
+                "final": 15,
+                "new": 4,
+                "excellent": 3,
+                "great": 3,
+                "finished": 2
+            },
+            "way": {
+                "good": 7,
+                "clear": 7,
+                "new": 4,
+                "possible": 4,
+                "professional": 4
+            },
+            "thing": {
+                "good": 5,
+                "great": 4,
+                "digital": 3,
+                "big": 2,
+                "main": 2
+            },
+            "event": {
+                "recent": 3,
+                "global": 2,
+                "great": 2,
+                "social": 1,
+                "excellent": 1
+            },
+            "price": {
+                "reasonable": 8,
+                "competitive": 6,
+                "affordable": 6,
+                "good": 6,
+                "quick": 2
+            },
+            "step": {
+                "right": 1,
+                "upcoming": 1,
+                "accessible": 1,
+                "big": 1,
+                "actionable": 1
+            },
+            "place": {
+                "great": 24,
+                "good": 8,
+                "right": 4,
+                "excellent": 2,
+                "amazing": 2
+            },
+            "plan": {
+                "digital": 3,
+                "realistic": 2,
+                "bespoke": 2,
+                "future": 2,
+                "specific": 1
+            },
+            "market": {
+                "competitive": 2,
+                "crowded": 2,
+                "american": 1,
+                "asian": 1,
+                "ethnic": 1
+            },
+            "skill": {
+                "great": 5,
+                "new": 3,
+                "excellent": 2,
+                "advanced": 2,
+                "social": 2
+            },
+            "development": {
+                "personal": 3,
+                "professional": 3,
+                "proper": 1,
+                "reliable": 1,
+                "efficient": 1
+            },
+            "sale": {
+                "overall": 1,
+                "real": 1,
+                "online": 1,
+                "organic": 1,
+                "amazing": 1
+            },
+            "care": {
+                "excellent": 2,
+                "great": 2,
+                "utmost": 2,
+                "good": 1,
+                "taken": 1
+            },
+            "photographer": {
+                "talented": 2,
+                "professional": 1,
+                "excellent": 1,
+                "friendly": 1,
+                "brilliant": 1
+            },
+            "brief": {
+                "clear": 2,
+                "creative": 1,
+                "difficult": 1,
+                "efficient": 1,
+                "original": 1
+            },
+            "industry": {
+                "digital": 1,
+                "aesthetic": 1,
+                "competitive": 1,
+                "interior": 1
+            },
+            "change": {
+                "urgent": 1,
+                "positive": 1,
+                "endless": 1,
+                "monthly": 1,
+                "refreshing": 1
+            },
+            "day": {
+                "present": 1,
+                "mere": 1,
+                "excellent": 1,
+                "future": 1,
+                "actual": 1
+            },
+            "email": {
+                "social": 1,
+                "warm": 1,
+                "fellow": 1,
+                "notch": 1,
+                "initial": 1
+            },
+            "future": {
+                "near": 3,
+                "sustainable": 1,
+                "foreseeable": 1
+            },
+            "training": {
+                "digital": 2,
+                "great": 2,
+                "outstanding": 1,
+                "fantastic": 1,
+                "unmatched": 1
+            },
+            "budget": {
+                "tight": 3,
+                "low": 2,
+                "effective": 1,
+                "tough": 1,
+                "limited": 1
+            },
+            "term": {
+                "long": 12,
+                "simple": 3,
+                "understandable": 1,
+                "loyal": 1
+            },
+            "branding": {
+                "new": 4,
+                "complete": 1,
+                "consistent": 1,
+                "future": 1,
+                "creative": 1
+            },
+            "vision": {
+                "clear": 2,
+                "strategic": 2,
+                "wonderful": 1,
+                "creative": 1,
+                "abstract": 1
+            },
+            "month": {
+                "past": 16,
+                "mere": 1,
+                "short": 1,
+                "big": 1,
+                "high": 1
+            },
+            "goal": {
+                "main": 2,
+                "specific": 2,
+                "immediate": 1,
+                "previous": 1,
+                "overall": 1
+            },
+            "lot": {
+                "open": 1,
+                "appreciated": 1
+            },
+            "site": {
+                "new": 11,
+                "old": 3,
+                "e": 3,
+                "final": 2,
+                "commerce": 2
+            },
+            "finish": {
+                "perfect": 1
+            },
+            "session": {
+                "great": 3,
+                "good": 2,
+                "weekly": 2,
+                "thorough": 1,
+                "excellent": 1
+            },
+            "consultancy": {
+                "16yr": 1,
+                "old": 1,
+                "skilled": 1,
+                "online": 1,
+                "free": 1
+            },
+            "end": {
+                "high": 3,
+                "fantastic": 1,
+                "good": 1
+            },
+            "logo": {
+                "new": 11,
+                "stunning": 2,
+                "attractive": 1,
+                "fabulous": 1,
+                "modern": 1
+            },
+            "delivery": {
+                "fast": 4,
+                "quick": 2,
+                "good": 2,
+                "speedy": 2,
+                "well": 1
+            },
+            "creation": {
+                "brief": 1,
+                "incredible": 1
+            },
+            "collaboration": {
+                "great": 2,
+                "continued": 2,
+                "smooth": 1,
+                "ugc": 1,
+                "reliable": 1
+            },
+            "thank": {
+                "big": 7,
+                "huge": 4,
+                "special": 3,
+                "good": 1
+            },
+            "advertisement": {
+                "platform": 1
+            },
+            "opportunity": {
+                "fantastic": 3,
+                "amazing": 2,
+                "well": 2,
+                "key": 1,
+                "fab": 1
+            },
+            "appreciation": {
+                "sincere": 1,
+                "utmost": 1
+            },
+            "start": {
+                "new": 1,
+                "good": 1,
+                "great": 1,
+                "well": 1
+            },
+            "aspiration": {
+                "big": 1
+            },
+            "detail": {
+                "single": 1,
+                "meticulous": 1,
+                "helpful": 1,
+                "superfluous": 1,
+                "fine": 1
+            },
+            "course": {
+                "good": 4,
+                "online": 2,
+                "practical": 1,
+                "comprehensive": 1,
+                "competitive": 1
+            },
+            "audience": {
+                "wide": 3,
+                "right": 2,
+                "large": 2,
+                "specific": 1,
+                "key": 1
+            },
+            "question": {
+                "right": 2,
+                "silly": 2,
+                "great": 1,
+                "smart": 1,
+                "invigorating": 1
+            },
+            "money": {
+                "extra": 2,
+                "good": 1
+            },
+            "number": {
+                "large": 3,
+                "good": 1,
+                "patient": 1
+            },
+            "assistance": {
+                "digital": 1,
+                "continued": 1,
+                "personalized": 1,
+                "great": 1
+            },
+            "ability": {
+                "amazing": 1,
+                "remarkable": 1,
+                "strong": 1,
+                "deep": 1
+            },
+            "pr": {
+                "digital": 2,
+                "valuable": 1,
+                "specific": 1
+            },
+            "web": {
+                "professional": 1
+            },
+            "maintenance": {
+                "monthly": 1,
+                "easy": 1
+            },
+            "procedure": {
+                "transparent": 1,
+                "complex": 1
+            },
+            "marketeer": {
+                "competent": 1,
+                "online": 1,
+                "great": 1
+            },
+            "creative": {
+                "superb": 1,
+                "happy": 1,
+                "cool": 1,
+                "fantastic": 1
+            },
+            "star": {
+                "solid": 1
+            },
+            "explanation": {
+                "clear": 1
+            }
+        },
+        "word_groups": {
+            "question": [
+                "question"
+            ],
+            "brand": [
+                "brand"
+            ],
+            "acquisition": [
+                "acquisition",
+                "assessment",
+                "clarification",
+                "consideration",
+                "implementation",
+                "optimisation",
+                "optimization",
+                "proposition",
+                "specification",
+                "transaction",
+                "valuation"
+            ],
+            "audience": [
+                "audience"
+            ],
+            "alteration": [
+                "alteration",
+                "application",
+                "clarification",
+                "consideration",
+                "consultation",
+                "determination",
+                "explanation",
+                "implementation",
+                "limitation",
+                "presentation",
+                "recommendation",
+                "specification",
+                "valuation"
+            ],
+            "presence": [
+                "presence"
+            ],
+            "advertisement": [
+                "advertisement",
+                "advertiser",
+                "advertising",
+                "marketing"
+            ],
+            "future": [
+                "future"
+            ],
+            "agency": [
+                "agency"
+            ],
+            "advice": [
+                "advice"
+            ],
+            "explanation": [
+                "explanation",
+                "recommendation",
+                "suggestion"
+            ],
+            "accountability": [
+                "accountability",
+                "activity",
+                "approachability",
+                "effectiveness",
+                "proactivity",
+                "productivity",
+                "responsiveness"
+            ],
+            "content": [
+                "content"
+            ],
+            "pleasure": [
+                "pleasure"
+            ],
+            "quality": [
+                "quality"
+            ],
+            "activation": [
+                "activation",
+                "alteration",
+                "combination",
+                "communication",
+                "conceptualisation",
+                "coordination",
+                "creation",
+                "determination",
+                "development",
+                "distribution",
+                "experimentation",
+                "fraction",
+                "function",
+                "ideation",
+                "implementation",
+                "integration",
+                "interaction",
+                "localization",
+                "migration",
+                "optimisation",
+                "optimization",
+                "specification",
+                "transformation",
+                "transition",
+                "visualisation"
+            ],
+            "profession": [
+                "profession",
+                "professional",
+                "professionalism"
+            ],
+            "adaptability": [
+                "adaptability",
+                "efficiency",
+                "proactivity",
+                "productivity",
+                "sustainability"
+            ],
+            "clarification": [
+                "clarification",
+                "conceptualisation",
+                "definition",
+                "explanation",
+                "suggestion"
+            ],
+            "experience": [
+                "experience",
+                "expertise",
+                "knowledge"
+            ],
+            "web": [
+                "web"
+            ],
+            "opportunity": [
+                "opportunity"
+            ],
+            "industry": [
+                "industry"
+            ],
+            "assistance": [
+                "assistance",
+                "support"
+            ],
+            "team": [
+                "team"
+            ],
+            "number": [
+                "number"
+            ],
+            "job": [
+                "job"
+            ],
+            "product": [
+                "product"
+            ],
+            "advertising": [
+                "advertising",
+                "branding",
+                "marketer",
+                "marketing"
+            ],
+            "photographer": [
+                "photographer",
+                "photography",
+                "videographer"
+            ],
+            "thank": [
+                "thank"
+            ],
+            "communicating": [
+                "communicating",
+                "communication",
+                "communicator",
+                "connection",
+                "cooperation",
+                "coordination",
+                "implementation",
+                "integration",
+                "interaction",
+                "localization",
+                "miscommunication",
+                "presentation",
+                "transformation",
+                "visualisation"
+            ],
+            "care": [
+                "care"
+            ],
+            "video": [
+                "video"
+            ],
+            "plan": [
+                "plan"
+            ],
+            "detail": [
+                "detail"
+            ],
+            "budget": [
+                "budget"
+            ],
+            "session": [
+                "session"
+            ],
+            "staff": [
+                "staff"
+            ],
+            "addition": [
+                "addition",
+                "combination",
+                "complement",
+                "conjunction",
+                "experimentation",
+                "integration",
+                "localization",
+                "specification"
+            ],
+            "course": [
+                "course"
+            ],
+            "ad": [
+                "ad"
+            ],
+            "price": [
+                "price"
+            ],
+            "attention": [
+                "attention"
+            ],
+            "ality": [
+                "ality",
+                "approachability",
+                "buisness",
+                "conception",
+                "practicality"
+            ],
+            "level": [
+                "level"
+            ],
+            "change": [
+                "change",
+                "changer"
+            ],
+            "strategizing": [
+                "strategizing",
+                "strategy"
+            ],
+            "thing": [
+                "thing"
+            ],
+            "result": [
+                "result"
+            ],
+            "relationship": [
+                "relationship"
+            ],
+            "insight": [
+                "insight"
+            ],
+            "association": [
+                "association",
+                "cooperation",
+                "coordination",
+                "foundation",
+                "implementation",
+                "initiative",
+                "institution",
+                "integration",
+                "organisation",
+                "organization"
+            ],
+            "ability": [
+                "ability",
+                "adaptability",
+                "agility",
+                "approachability",
+                "capability",
+                "deliverability",
+                "effectiveness",
+                "flexibility",
+                "functionality",
+                "productivity",
+                "reliability",
+                "responsiveness",
+                "stability",
+                "sustainability",
+                "usability"
+            ],
+            "place": [
+                "place"
+            ],
+            "search": [
+                "search"
+            ],
+            "delivery": [
+                "delivery"
+            ],
+            "market": [
+                "market",
+                "marketplace"
+            ],
+            "brief": [
+                "brief"
+            ],
+            "term": [
+                "term"
+            ],
+            "month": [
+                "month",
+                "week",
+                "weekend"
+            ],
+            "start": [
+                "start",
+                "start-"
+            ],
+            "development": [
+                "development",
+                "redevelopment",
+                "renovation"
+            ],
+            "appreciation": [
+                "appreciation",
+                "commitment",
+                "dedication"
+            ],
+            "ambition": [
+                "ambition",
+                "aspiration",
+                "conception",
+                "conceptualisation",
+                "creation",
+                "determination",
+                "ideation",
+                "imagination",
+                "inspiration",
+                "motivation",
+                "realisation",
+                "transformation"
+            ],
+            "event": [
+                "event"
+            ],
+            "star": [
+                "star"
+            ],
+            "help": [
+                "help"
+            ],
+            "campaign": [
+                "campaign"
+            ],
+            "sale": [
+                "sale"
+            ],
+            "branding": [
+                "branding",
+                "marketing",
+                "rebranding"
+            ],
+            "homepage": [
+                "homepage",
+                "page",
+                "webpage",
+                "website"
+            ],
+            "money": [
+                "money"
+            ],
+            "creation": [
+                "creation",
+                "foundation",
+                "organization"
+            ],
+            "value": [
+                "value"
+            ],
+            "project": [
+                "project"
+            ],
+            "idea": [
+                "idea"
+            ],
+            "people": [
+                "people"
+            ],
+            "consulting": [
+                "consulting",
+                "development",
+                "implementation",
+                "management",
+                "procurement"
+            ],
+            "email": [
+                "email"
+            ],
+            "skill": [
+                "skill",
+                "skillset"
+            ],
+            "growth": [
+                "growth"
+            ],
+            "cognition": [
+                "cognition",
+                "conception",
+                "perception"
+            ],
+            "effort": [
+                "effort"
+            ],
+            "approachability": [
+                "approachability",
+                "conception",
+                "knowledge",
+                "misunderstanding",
+                "perspective",
+                "realisation",
+                "understanding",
+                "understatement"
+            ],
+            "training": [
+                "training"
+            ],
+            "collaboration": [
+                "collaboration",
+                "communication",
+                "cooperation",
+                "coordination",
+                "implementation",
+                "integration",
+                "negotiation",
+                "operation",
+                "organisation",
+                "organization"
+            ],
+            "aspiration": [
+                "aspiration",
+                "conception",
+                "conceptualisation",
+                "creation",
+                "desperation",
+                "determination",
+                "expectation",
+                "experimentation",
+                "frustration",
+                "ideation",
+                "implementation",
+                "motivation",
+                "optimisation",
+                "realisation",
+                "revelation",
+                "transformation",
+                "understanding",
+                "visualisation"
+            ],
+            "site": [
+                "site"
+            ],
+            "company": [
+                "company"
+            ],
+            "application": [
+                "application",
+                "automation",
+                "conceptualisation",
+                "customisation",
+                "experimentation",
+                "implementation",
+                "improvement",
+                "innovation",
+                "integration",
+                "localization",
+                "optimisation",
+                "optimization",
+                "realisation",
+                "refinement",
+                "specification",
+                "transformation",
+                "valuation",
+                "visualisation"
+            ],
+            "success": [
+                "success"
+            ],
+            "way": [
+                "way"
+            ],
+            "creative": [
+                "creative",
+                "creativity"
+            ],
+            "work": [
+                "work",
+                "working"
+            ],
+            "time": [
+                "time"
+            ],
+            "implementation": [
+                "implementation",
+                "provision",
+                "requirement"
+            ],
+            "platform": [
+                "platform"
+            ],
+            "pr": [
+                "pr"
+            ],
+            "marketeer": [
+                "marketeer",
+                "marketer",
+                "marketing"
+            ],
+            "partner": [
+                "partner"
+            ],
+            "medium": [
+                "medium"
+            ],
+            "end": [
+                "end"
+            ],
+            "client": [
+                "client",
+                "customer"
+            ],
+            "issue": [
+                "issue"
+            ],
+            "design": [
+                "design",
+                "designing",
+                "redesign",
+                "webdesign"
+            ],
+            "business": [
+                "business"
+            ],
+            "guy": [
+                "guy"
+            ],
+            "maintenance": [
+                "maintenance",
+                "service",
+                "service(s",
+                "service-",
+                "services-",
+                "servicing"
+            ],
+            "finish": [
+                "finish"
+            ],
+            "lot": [
+                "lot"
+            ],
+            "feedback": [
+                "feedback"
+            ],
+            "expert": [
+                "expert",
+                "specialist"
+            ],
+            "consultancy": [
+                "consultancy",
+                "consultant",
+                "consultation",
+                "consulting",
+                "management"
+            ],
+            "solution": [
+                "solution"
+            ],
+            "logo": [
+                "logo"
+            ],
+            "procedure": [
+                "procedure",
+                "process"
+            ],
+            "vision": [
+                "vision"
+            ],
+            "traffic": [
+                "traffic"
+            ],
+            "expertise": [
+                "expertise",
+                "knowledge",
+                "knowlege",
+                "understanding"
+            ],
+            "hand": [
+                "hand",
+                "hands-"
+            ],
+            "need": [
+                "need"
+            ],
+            "step": [
+                "step"
+            ],
+            "day": [
+                "day"
+            ],
+            "goal": [
+                "goal"
+            ],
+            "seo": [
+                "seo"
+            ],
+            "lead": [
+                "lead"
+            ]
+        }
+    },
+    "bad": {
+        "word_freqs": {
+            "company": 62,
+            "month": 45,
+            "time": 37,
+            "experience": 34,
+            "client": 32,
+            "service": 32,
+            "work": 27,
+            "money": 25,
+            "people": 24,
+            "business": 23,
+            "communication": 22,
+            "email": 21,
+            "job": 17,
+            "website": 17,
+            "agency": 16,
+            "review": 15,
+            "advertiser": 15,
+            "team": 14,
+            "result": 13,
+            "number": 13,
+            "campaign": 12,
+            "cost": 11,
+            "brand": 10,
+            "message": 10,
+            "contract": 10,
+            "15th": 10,
+            "guy": 10,
+            "lack": 10,
+            "way": 10,
+            "day": 10,
+            "authorisation": 9,
+            "procedure": 9,
+            "scam": 9,
+            "sale": 9,
+            "staff": 9,
+            "meeting": 9
+        },
+        "associated_adjectives": {
+            "company": {
+                "digital": 1,
+                "deaf": 1,
+                "local": 1,
+                "unprofessional": 1,
+                "unstructured": 1
+            },
+            "team": {
+                "responsive": 1,
+                "dedicated": 1,
+                "incompetent": 1,
+                "financial": 1
+            },
+            "day": {
+                "certain": 1
+            },
+            "service": {
+                "poor": 3,
+                "bad": 2,
+                "subpar": 1,
+                "good": 1,
+                "graphic": 1
+            },
+            "review": {
+                "bad": 2,
+                "questionable": 1,
+                "suspicious": 1,
+                "positive": 1
+            },
+            "communication": {
+                "wrong": 1,
+                "proactive": 1,
+                "poor": 1
+            },
+            "time": {
+                "multiple": 3,
+                "actual": 1,
+                "valuable": 1,
+                "long": 1
+            },
+            "experience": {
+                "horrible": 2,
+                "disappointing": 1,
+                "negative": 1,
+                "terrible": 1,
+                "bad": 1
+            },
+            "meeting": {
+                "monthly": 2,
+                "promised": 1
+            },
+            "result": {
+                "meaningful": 1,
+                "exceptional": 1,
+                "well": 1,
+                "social": 1,
+                "satisfying": 1
+            },
+            "lack": {
+                "complete": 1
+            },
+            "agency": {
+                "reliable": 1,
+                "terrible": 1,
+                "alternative": 1,
+                "previous": 1
+            },
+            "contract": {
+                "initial": 3,
+                "standard": 1
+            },
+            "work": {
+                "little": 1,
+                "ridiculous": 1,
+                "childlike": 1,
+                "unnecessary": 1,
+                "extra": 1
+            },
+            "job": {
+                "good": 2
+            },
+            "people": {
+                "young": 2,
+                "unsolicited": 1,
+                "rubbish": 1,
+                "previous": 1,
+                "inexperienced": 1
+            },
+            "way": {
+                "certain": 1,
+                "professional": 1
+            },
+            "brand": {
+                "overinflated": 1,
+                "hyped": 1,
+                "cordial": 1
+            },
+            "client": {
+                "potential": 1
+            },
+            "business": {
+                "small": 4,
+                "different": 1
+            },
+            "campaign": {
+                "initial": 1,
+                "organic": 1
+            },
+            "month": {
+                "fourth": 1,
+                "additional": 1
+            },
+            "procedure": {
+                "complex": 1
+            },
+            "scam": {
+                "complete": 1,
+                "huge": 1
+            },
+            "number": {
+                "personal": 2,
+                "false": 1,
+                "great": 1
+            },
+            "website": {
+                "electrical": 1,
+                "useless": 1,
+                "them.avoid": 1,
+                "bad": 1
+            },
+            "message": {
+                "upset": 1
+            },
+            "email": {
+                "angry": 1,
+                "spammy": 1
+            }
+        },
+        "word_groups": {
+            "brand": [
+                "brand"
+            ],
+            "work": [
+                "work"
+            ],
+            "result": [
+                "result"
+            ],
+            "communication": [
+                "communication",
+                "presentation",
+                "projection"
+            ],
+            "message": [
+                "message"
+            ],
+            "agency": [
+                "agency"
+            ],
+            "contract": [
+                "contract"
+            ],
+            "client": [
+                "client",
+                "customer"
+            ],
+            "business": [
+                "business"
+            ],
+            "15th": [
+                "15th",
+                "16th"
+            ],
+            "guy": [
+                "guy"
+            ],
+            "experience": [
+                "experience",
+                "expertise",
+                "knowledge"
+            ],
+            "month": [
+                "month",
+                "week",
+                "year"
+            ],
+            "review": [
+                "review"
+            ],
+            "advertiser": [
+                "advertiser",
+                "advertising",
+                "marketing"
+            ],
+            "team": [
+                "team"
+            ],
+            "authorisation": [
+                "authorisation",
+                "confirmation",
+                "indication",
+                "registration"
+            ],
+            "number": [
+                "number"
+            ],
+            "job": [
+                "job"
+            ],
+            "procedure": [
+                "procedure",
+                "process"
+            ],
+            "company": [
+                "company"
+            ],
+            "scam": [
+                "scam",
+                "scammer"
+            ],
+            "lack": [
+                "lack"
+            ],
+            "way": [
+                "way"
+            ],
+            "campaign": [
+                "campaign"
+            ],
+            "sale": [
+                "sale"
+            ],
+            "money": [
+                "money"
+            ],
+            "cost": [
+                "cost"
+            ],
+            "time": [
+                "time"
+            ],
+            "staff": [
+                "staff"
+            ],
+            "people": [
+                "people"
+            ],
+            "day": [
+                "day"
+            ],
+            "service": [
+                "service"
+            ],
+            "website": [
+                "website"
+            ],
+            "meeting": [
+                "meeting"
+            ],
+            "email": [
+                "email"
+            ]
+        }
+    }
+}

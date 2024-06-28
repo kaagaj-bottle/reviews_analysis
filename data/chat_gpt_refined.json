@@ -1,0 +1,118 @@
+{
+  "positive_review_indicators": {
+    "experience": [
+      "experience",
+      "trip",
+      "journey",
+      "adventure",
+      "lifetime"
+    ],
+    "service_quality": [
+      "service",
+      "team",
+      "hospitality",
+      "attentiveness",
+      "expertise"
+    ],
+    "guides_and_support": [
+      "guide",
+      "porter",
+      "assistance",
+      "driver"
+    ],
+    "travel_arrangements": [
+      "accommodation",
+      "itinerary",
+      "planning",
+      "arrangement"
+    ],
+    "communication_and_interaction": [
+      "communication",
+      "question",
+      "explanation",
+      "thank"
+    ],
+    "customer_appreciation": [
+      "thank",
+      "appreciation",
+      "memory",
+      "life"
+    ],
+    "company_reputation": [
+      "company",
+      "agency",
+      "corporation"
+    ]
+  },
+  "negative_review_indicators": {
+    "transportation_issues": [
+      "bus",
+      "driver",
+      "travel"
+    ],
+    "service_problems": [
+      "service",
+      "agency",
+      "guide"
+    ],
+    "financial_concerns": [
+      "money",
+      "price",
+      "refund"
+    ],
+    "time_related_issues": [
+      "time",
+      "day",
+      "hour"
+    ],
+    "customer_interaction_problems": [
+      "communication",
+      "agent",
+      "staff"
+    ],
+    "accommodation_and_logistics": [
+      "hotel",
+      "location",
+      "office",
+      "seat"
+    ]
+  },
+  "common_positive_themes": {
+    "quality_of_service": [
+      "good",
+      "great",
+      "excellent",
+      "wonderful",
+      "amazing"
+    ],
+    "memorable_experiences": [
+      "memorable",
+      "unforgettable"
+    ],
+    "value_for_money": [
+      "reasonable",
+      "fair"
+    ]
+  },
+  "common_negative_themes": {
+    "poor_service": [
+      "bad",
+      "poor",
+      "slow"
+    ],
+    "cost_issues": [
+      "price"
+    ],
+    "inconveniences": [
+      "time",
+      "communication"
+    ]
+  },
+  "recommendations": {
+    "enhance_transportation_services": "Address common issues with buses, drivers, and overall travel arrangements to ensure smooth and comfortable journeys.",
+    "improve_communication": "Ensure clear and effective communication at all stages, from planning to execution. This includes responding promptly to questions and providing thorough explanations and recommendations.",
+    "focus_on_value_for_money": "Review pricing strategies to ensure they are perceived as reasonable and fair. Consider offering more transparent pricing information and better value packages.",
+    "strengthen_customer_service": "Invest in training for staff to ensure they are well-equipped to provide exceptional service and handle issues promptly and professionally.",
+    "streamline_logistics": "Pay attention to details in accommodation, scheduling, and logistics to avoid inconveniences and enhance the overall travel experience."
+  }
+}

@@ -1,0 +1,2393 @@
+{
+    "good": {
+        "word_freqs": {
+            "dentist": 6201,
+            "staff": 2521,
+            "experience": 1833,
+            "month": 1785,
+            "-year": 1561,
+            "teeth": 1508,
+            "maintenance": 1417,
+            "care": 1328,
+            "office": 1219,
+            "team": 1179,
+            "time": 1111,
+            "daughter": 1084,
+            "complication": 1058,
+            "patient": 978,
+            "clinic": 938,
+            "procedure": 801,
+            "family": 762,
+            "work": 755,
+            "hygienist": 675,
+            "appointment": 648,
+            "place": 581,
+            "boyfriend": 566,
+            "visit": 555,
+            "intervention": 554,
+            "clean": 534,
+            "cleaner": 527,
+            "application": 505,
+            "doctor": 473,
+            "job": 429,
+            "discomfort": 407,
+            "competence": 369,
+            "dental": 362,
+            "professional": 352,
+            "expertise": 331,
+            "need": 311,
+            "smile": 310,
+            "kid": 300,
+            "brother": 296,
+            "receptionist": 291,
+            "thank": 288,
+            "\u263a": 285,
+            "abstraction": 283,
+            "client": 281,
+            "practice": 265,
+            "accessibility": 263,
+            "people": 254,
+            "detail": 245,
+            "health": 238,
+            "child": 235,
+            "issue": 233,
+            "assistant": 230,
+            "question": 222,
+            "way": 217,
+            "filling": 214,
+            "desk": 214,
+            "approachability": 205,
+            "thing": 198,
+            "quality": 196,
+            "ease": 194,
+            "analysis": 187,
+            "concern": 186,
+            "advancement": 183,
+            "day": 181,
+            "addition": 173,
+            "hand": 171,
+            "lot": 169,
+            "atmosphere": 168,
+            "estimation": 168,
+            "star": 166,
+            "distraction": 166,
+            "emergency": 160,
+            "insurance": 157,
+            "combination": 155,
+            "wisdom": 154,
+            "step": 152,
+            "accountability": 151,
+            "today": 148,
+            "appreciation": 145,
+            "result": 144,
+            "problem": 143,
+            "attention": 142,
+            "crown": 141,
+            "consideration": 139,
+            "life": 137,
+            "root": 134,
+            "implant": 130,
+            "pleasure": 129,
+            "canal": 128,
+            "area": 127,
+            "reception": 127,
+            "advice": 126,
+            "explanation": 122,
+            "moment": 119,
+            "affection": 119,
+            "destination": 117,
+            "attentiveness": 116,
+            "person": 112,
+            "hour": 111,
+            "skill": 110,
+            "notch": 108,
+            "calmness": 106,
+            "clearness": 103,
+            "anxiety": 103,
+            "review": 101,
+            "price": 101,
+            "surgery": 100,
+            "acknowledgment": 99,
+            "option": 99,
+            "communicating": 98,
+            "gentleness": 97,
+            "gum": 97,
+            "rescheduling": 96,
+            "mouth": 91,
+            "level": 91,
+            "cavity": 89,
+            "expert": 89,
+            "manner": 87,
+            "admiration": 84,
+            "plan": 84,
+            "fear": 82,
+            "patience": 80,
+            "collaboration": 77,
+            "home": 77,
+            "kind": 76,
+            "definition": 75,
+            "check": 74,
+            "end": 74,
+            "member": 74,
+            "afternoon": 73,
+            "comfort": 72,
+            "equipment": 72,
+            "decade": 70,
+            "facility": 65,
+            "confidence": 65,
+            "minute": 65,
+            "hygiene": 65,
+            "brace": 62,
+            "dad": 62,
+            "chair": 61,
+            "assistance": 60,
+            "circumstance": 60,
+            "decision": 59,
+            "compassion": 58,
+            "guy": 58,
+            "communication": 57
+        },
+        "associated_adjectives": {
+            "review": {
+                "negative": 7,
+                "good": 3,
+                "bad": 3,
+                "original": 3,
+                "new": 2
+            },
+            "dentist": {
+                "good": 324,
+                "great": 133,
+                "new": 81,
+                "excellent": 69,
+                "amazing": 68
+            },
+            "discomfort": {
+                "minimal": 3,
+                "mild": 2,
+                "little": 2,
+                "general": 1,
+                "possible": 1
+            },
+            "procedure": {
+                "dental": 38,
+                "unnecessary": 15,
+                "entire": 15,
+                "complex": 11,
+                "complicated": 5
+            },
+            "staff": {
+                "friendly": 262,
+                "great": 87,
+                "professional": 77,
+                "amazing": 63,
+                "entire": 60
+            },
+            "facility": {
+                "clean": 13,
+                "modern": 7,
+                "excellent": 4,
+                "great": 4,
+                "new": 3
+            },
+            "skill": {
+                "exceptional": 7,
+                "professional": 7,
+                "excellent": 7,
+                "great": 5,
+                "dental": 4
+            },
+            "experience": {
+                "great": 312,
+                "good": 174,
+                "amazing": 72,
+                "wonderful": 68,
+                "dental": 67
+            },
+            "work": {
+                "dental": 142,
+                "great": 52,
+                "good": 44,
+                "excellent": 28,
+                "amazing": 20
+            },
+            "hygienist": {
+                "dental": 129,
+                "good": 22,
+                "amazing": 13,
+                "great": 7,
+                "excellent": 5
+            },
+            "need": {
+                "dental": 126,
+                "future": 10,
+                "special": 7,
+                "specific": 4,
+                "patient": 3
+            },
+            "place": {
+                "great": 55,
+                "good": 27,
+                "amazing": 19,
+                "dental": 12,
+                "nice": 11
+            },
+            "job": {
+                "great": 114,
+                "amazing": 51,
+                "good": 41,
+                "excellent": 39,
+                "wonderful": 15
+            },
+            "team": {
+                "entire": 90,
+                "great": 56,
+                "dental": 30,
+                "amazing": 30,
+                "wonderful": 17
+            },
+            "care": {
+                "dental": 295,
+                "good": 103,
+                "excellent": 77,
+                "great": 74,
+                "exceptional": 68
+            },
+            "health": {
+                "dental": 87,
+                "oral": 53,
+                "overall": 16,
+                "good": 6,
+                "optimal": 3
+            },
+            "smile": {
+                "warm": 15,
+                "big": 13,
+                "beautiful": 13,
+                "new": 10,
+                "perfect": 9
+            },
+            "professional": {
+                "dental": 18,
+                "true": 14,
+                "excellent": 7,
+                "caring": 7,
+                "great": 6
+            },
+            "problem": {
+                "dental": 27,
+                "potential": 2,
+                "major": 2,
+                "future": 1,
+                "hidden": 1
+            },
+            "insurance": {
+                "dental": 9,
+                "international": 1,
+                "financial": 1,
+                "new": 1,
+                "primary": 1
+            },
+            "office": {
+                "dental": 306,
+                "good": 40,
+                "great": 25,
+                "clean": 25,
+                "new": 18
+            },
+            "hand": {
+                "good": 49,
+                "great": 11,
+                "gentle": 10,
+                "excellent": 2,
+                "safe": 2
+            },
+            "practice": {
+                "dental": 64,
+                "good": 13,
+                "professional": 5,
+                "great": 4,
+                "lovely": 3
+            },
+            "clinic": {
+                "dental": 226,
+                "good": 32,
+                "clean": 14,
+                "great": 13,
+                "wonderful": 10
+            },
+            "doctor": {
+                "good": 27,
+                "great": 18,
+                "amazing": 14,
+                "professional": 11,
+                "friendly": 7
+            },
+            "thing": {
+                "good": 48,
+                "great": 9,
+                "important": 4,
+                "amazing": 4,
+                "right": 3
+            },
+            "advice": {
+                "good": 19,
+                "great": 8,
+                "valuable": 8,
+                "excellent": 6,
+                "professional": 5
+            },
+            "assistant": {
+                "dental": 61,
+                "pleasant": 2,
+                "administrative": 2,
+                "capable": 1,
+                "lovely": 1
+            },
+            "time": {
+                "long": 66,
+                "extra": 7,
+                "good": 7,
+                "entire": 7,
+                "short": 7
+            },
+            "quality": {
+                "high": 33,
+                "good": 7,
+                "rare": 2,
+                "overall": 1,
+                "possible": 1
+            },
+            "receptionist": {
+                "friendly": 9,
+                "nice": 4,
+                "good": 4,
+                "amazing": 2,
+                "kind": 2
+            },
+            "family": {
+                "entire": 41,
+                "friendly": 6,
+                "extended": 4,
+                "big": 1,
+                "little": 1
+            },
+            "issue": {
+                "dental": 43,
+                "potential": 6,
+                "complicated": 4,
+                "severe": 3,
+                "major": 3
+            },
+            "appointment": {
+                "dental": 34,
+                "recent": 4,
+                "upcoming": 4,
+                "initial": 3,
+                "future": 3
+            },
+            "implant": {
+                "dental": 23,
+                "oral": 2,
+                "2nd": 1,
+                "actual": 1,
+                "non": 1
+            },
+            "hour": {
+                "half": 4,
+                "flexible": 3,
+                "regular": 2,
+                "extended": 1,
+                "convenient": 1
+            },
+            "crown": {
+                "new": 9,
+                "temporary": 4,
+                "old": 4,
+                "dental": 3,
+                "beautiful": 3
+            },
+            "people": {
+                "nice": 27,
+                "great": 22,
+                "amazing": 12,
+                "good": 12,
+                "friendly": 11
+            },
+            "hygiene": {
+                "dental": 21,
+                "oral": 17,
+                "good": 3,
+                "proper": 2,
+                "well": 1
+            },
+            "visit": {
+                "dental": 35,
+                "recent": 11,
+                "entire": 9,
+                "pleasant": 8,
+                "wonderful": 4
+            },
+            "atmosphere": {
+                "warm": 13,
+                "welcoming": 10,
+                "pleasant": 10,
+                "comfortable": 9,
+                "friendly": 9
+            },
+            "addition": {
+                "sweetest": 1,
+                "caring": 1,
+                "new": 1,
+                "excellent": 1
+            },
+            "explanation": {
+                "detailed": 14,
+                "thorough": 9,
+                "clear": 9,
+                "friendly": 2,
+                "informative": 1
+            },
+            "check": {
+                "regular": 4,
+                "routine": 3,
+                "dental": 3,
+                "quick": 1,
+                "yearly": 1
+            },
+            "concern": {
+                "genuine": 14,
+                "dental": 11,
+                "good": 1,
+                "additional": 1,
+                "similar": 1
+            },
+            "star": {
+                "extra": 1,
+                "big": 1,
+                "polite": 1,
+                "6th": 1,
+                "deserved": 1
+            },
+            "communication": {
+                "great": 9,
+                "clear": 4,
+                "excellent": 2,
+                "open": 2,
+                "good": 1
+            },
+            "emergency": {
+                "dental": 33,
+                "medical": 3,
+                "unexpected": 2,
+                "small": 1,
+                "odd": 1
+            },
+            "daughter": {
+                "old": 14,
+                "young": 2,
+                "little": 2,
+                "eld": 1,
+                "good": 1
+            },
+            "anxiety": {
+                "dental": 16,
+                "severe": 4,
+                "major": 3,
+                "bad": 2,
+                "extreme": 2
+            },
+            "level": {
+                "high": 21,
+                "exceptional": 4,
+                "remarkable": 3,
+                "professional": 3,
+                "outstanding": 2
+            },
+            "comfort": {
+                "patient": 8,
+                "skilled": 1,
+                "great": 1
+            },
+            "member": {
+                "single": 4,
+                "great": 2,
+                "new": 1,
+                "valuable": 1,
+                "good": 1
+            },
+            "result": {
+                "excellent": 7,
+                "good": 5,
+                "final": 3,
+                "amazing": 3,
+                "great": 2
+            },
+            "client": {
+                "new": 4,
+                "happy": 3,
+                "regular": 3,
+                "friendly": 1,
+                "devoted": 1
+            },
+            "surgery": {
+                "dental": 11,
+                "major": 4,
+                "implant": 4,
+                "oral": 4,
+                "painless": 3
+            },
+            "patient": {
+                "new": 35,
+                "nervous": 11,
+                "happy": 9,
+                "loyal": 8,
+                "regular": 8
+            },
+            "filling": {
+                "old": 10,
+                "numerous": 2,
+                "broken": 2,
+                "simple": 2,
+                "dental": 2
+            },
+            "chair": {
+                "dental": 12,
+                "big": 1,
+                "patient": 1,
+                "comfy": 1,
+                "comfortable": 1
+            },
+            "way": {
+                "possible": 5,
+                "long": 4,
+                "professional": 3,
+                "good": 3,
+                "efficient": 2
+            },
+            "fear": {
+                "dental": 3,
+                "big": 2,
+                "terrible": 1,
+                "little": 1,
+                "real": 1
+            },
+            "person": {
+                "nice": 9,
+                "wonderful": 6,
+                "kind": 6,
+                "good": 6,
+                "professional": 5
+            },
+            "manner": {
+                "great": 9,
+                "good": 6,
+                "clear": 6,
+                "timely": 5,
+                "bedside": 4
+            },
+            "expertise": {
+                "remarkable": 3,
+                "professional": 3,
+                "dental": 3,
+                "unparalleled": 1,
+                "incredible": 1
+            },
+            "attention": {
+                "great": 8,
+                "meticulous": 4,
+                "excellent": 4,
+                "professional": 3,
+                "immediate": 3
+            },
+            "kind": {
+                "caring": 5,
+                "professional": 4,
+                "friendly": 4,
+                "super": 2,
+                "competent": 1
+            },
+            "home": {
+                "new": 2,
+                "dental": 1,
+                "old": 1,
+                "second": 1
+            },
+            "intervention": {
+                "timely": 1,
+                "quick": 1,
+                "possible": 1
+            },
+            "thank": {
+                "special": 15,
+                "big": 4,
+                "friendly": 2,
+                "sincere": 1,
+                "amazing": 1
+            },
+            "life": {
+                "entire": 9,
+                "long": 2,
+                "healthy": 1,
+                "new": 1,
+                "personal": 1
+            },
+            "plan": {
+                "dental": 10,
+                "good": 4,
+                "complete": 2,
+                "excellent": 1,
+                "personal": 1
+            },
+            "price": {
+                "reasonable": 8,
+                "great": 7,
+                "fair": 4,
+                "good": 3,
+                "amazing": 2
+            },
+            "cavity": {
+                "deep": 1,
+                "bad": 1,
+                "fake": 1,
+                "imaginary": 1,
+                "multiple": 1
+            },
+            "option": {
+                "different": 4,
+                "good": 3,
+                "alternative": 3,
+                "actual": 1,
+                "reasonable": 1
+            },
+            "compassion": {
+                "genuine": 1
+            },
+            "brace": {
+                "permanent": 1,
+                "traditional": 1,
+                "invisalign": 1,
+                "low": 1
+            },
+            "kid": {
+                "young": 7,
+                "little": 3,
+                "big": 1,
+                "good": 1,
+                "old": 1
+            },
+            "area": {
+                "clean": 3,
+                "comfortable": 2,
+                "new": 2,
+                "great": 1,
+                "toronto": 1
+            },
+            "assistance": {
+                "dental": 1,
+                "great": 1,
+                "gentle": 1,
+                "staff(dental": 1,
+                "immediate": 1
+            },
+            "end": {
+                "high": 5,
+                "east": 1,
+                "search": 1
+            },
+            "gum": {
+                "sensitive": 3,
+                "overgrown": 2,
+                "low": 1,
+                "swollen": 1,
+                "painful": 1
+            },
+            "desk": {
+                "welcoming": 2,
+                "friendly": 1,
+                "administrative": 1,
+                "beautiful": 1,
+                "helpful": 1
+            },
+            "reception": {
+                "warm": 3,
+                "nice": 2,
+                "friendly": 2,
+                "dental": 1,
+                "super": 1
+            },
+            "guy": {
+                "nice": 6,
+                "great": 5,
+                "little": 2,
+                "alright": 1,
+                "fantastic": 1
+            },
+            "day": {
+                "good": 2,
+                "following": 1,
+                "entire": 1,
+                "early": 1,
+                "past": 1
+            },
+            "complication": {
+                "potential": 1
+            },
+            "wisdom": {
+                "upper": 2,
+                "dental": 1,
+                "second": 1
+            },
+            "decision": {
+                "good": 10,
+                "informed": 5,
+                "right": 2,
+                "excellent": 1,
+                "close": 1
+            },
+            "confidence": {
+                "complete": 4,
+                "great": 3,
+                "new": 1,
+                "total": 1,
+                "overall": 1
+            },
+            "equipment": {
+                "modern": 9,
+                "late": 4,
+                "dental": 4,
+                "new": 3,
+                "clean": 2
+            },
+            "combination": {
+                "well": 1,
+                "perfect": 1
+            },
+            "step": {
+                "extra": 3,
+                "single": 2,
+                "incremental": 1,
+                "concrete": 1
+            },
+            "afternoon": {
+                "late": 1
+            },
+            "patience": {
+                "caring": 2,
+                "immense": 1,
+                "knowledgeable": 1,
+                "good": 1
+            },
+            "pleasure": {
+                "absolute": 4,
+                "real": 2,
+                "complete": 1,
+                "culinary": 1,
+                "great": 1
+            },
+            "detail": {
+                "great": 8,
+                "small": 2,
+                "little": 2,
+                "personal": 2,
+                "tiny": 1
+            },
+            "child": {
+                "young": 9,
+                "fussy": 4,
+                "small": 3,
+                "wiggly": 1,
+                "grown": 1
+            },
+            "ease": {
+                "complete": 1,
+                "total": 1
+            },
+            "canal": {
+                "invisalign": 2,
+                "complicated": 1,
+                "old": 1,
+                "prescribed": 1,
+                "post": 1
+            },
+            "moment": {
+                "certain": 1
+            },
+            "consideration": {
+                "clinical": 1
+            },
+            "question": {
+                "numerous": 2,
+                "multiple": 2,
+                "additional": 1,
+                "friendly": 1,
+                "relevant": 1
+            },
+            "appreciation": {
+                "heartfelt": 1,
+                "sincere": 1,
+                "huge": 1
+            },
+            "circumstance": {
+                "challenging": 1,
+                "unusual": 1,
+                "unexpected": 1
+            },
+            "teeth": {
+                "upper": 1
+            },
+            "distraction": {
+                "nice": 1
+            },
+            "expert": {
+                "true": 2,
+                "professional": 2,
+                "great": 1,
+                "good": 1,
+                "skilled": 1
+            },
+            "dental": {
+                "recommended": 1,
+                "optimum": 1,
+                "good": 1,
+                "young": 1
+            },
+            "destination": {
+                "preferred": 1
+            },
+            "mouth": {
+                "therapeutic": 1,
+                "dry": 1,
+                "healthy": 1,
+                "happy": 1
+            },
+            "advancement": {
+                "late": 2
+            },
+            "acknowledgment": {
+                "special": 1
+            },
+            "collaboration": {
+                "seamless": 1
+            },
+            "notch": {
+                "professional": 1
+            },
+            "brother": {
+                "big": 1
+            },
+            "minute": {
+                "maximum": 1
+            },
+            "clean": {
+                "deep": 1,
+                "great": 1
+            },
+            "cleaner": {
+                "good": 1
+            },
+            "admiration": {
+                "warm": 1
+            },
+            "communicating": {
+                "nonstop": 1
+            },
+            "lot": {
+                "close": 1
+            },
+            "month": {
+                "fifth": 1,
+                "past": 1,
+                "second": 1,
+                "6th": 1
+            }
+        },
+        "word_groups": {
+            "abstraction": [
+                "abstraction",
+                "complication",
+                "distraction",
+                "enviornment",
+                "frustration",
+                "interaction",
+                "interruption",
+                "manipulation"
+            ],
+            "brother": [
+                "brother",
+                "daughter",
+                "mother",
+                "sister"
+            ],
+            "time": [
+                "time"
+            ],
+            "people": [
+                "people"
+            ],
+            "doctor": [
+                "doctor"
+            ],
+            "client": [
+                "client",
+                "customer"
+            ],
+            "review": [
+                "review"
+            ],
+            "application": [
+                "application",
+                "provision",
+                "requirement",
+                "specification"
+            ],
+            "appreciation": [
+                "appreciation",
+                "commitment",
+                "dedication"
+            ],
+            "chair": [
+                "chair"
+            ],
+            "collaboration": [
+                "collaboration",
+                "communication",
+                "cooperation",
+                "coordination",
+                "operation",
+                "organization"
+            ],
+            "canal": [
+                "canal"
+            ],
+            "admiration": [
+                "admiration",
+                "appreciation",
+                "dedication",
+                "encouragement"
+            ],
+            "consideration": [
+                "consideration",
+                "estimation",
+                "evaluation",
+                "fraction",
+                "indication",
+                "measurement",
+                "specification",
+                "verification"
+            ],
+            "complication": [
+                "complication",
+                "management",
+                "managment",
+                "transformation"
+            ],
+            "teeth": [
+                "teeth",
+                "tooth"
+            ],
+            "clinic": [
+                "clinic"
+            ],
+            "ease": [
+                "ease"
+            ],
+            "facility": [
+                "facility"
+            ],
+            "assistant": [
+                "assistant"
+            ],
+            "clearness": [
+                "clearness",
+                "helpfulness",
+                "thoughtfulness",
+                "understanding"
+            ],
+            "assistance": [
+                "assistance",
+                "support"
+            ],
+            "accessibility": [
+                "accessibility",
+                "accountability",
+                "affordability",
+                "approach",
+                "approachability",
+                "competence",
+                "experiance",
+                "flexibility",
+                "functionality",
+                "mobility",
+                "reliability",
+                "responsiveness",
+                "understanding"
+            ],
+            "comfort": [
+                "comfort"
+            ],
+            "professional": [
+                "professional",
+                "professionalism",
+                "professionality",
+                "proffesional",
+                "proffessional"
+            ],
+            "notch": [
+                "notch"
+            ],
+            "combination": [
+                "combination",
+                "decalcification",
+                "extraction",
+                "fraction",
+                "processing",
+                "sterilization"
+            ],
+            "visit": [
+                "visit"
+            ],
+            "calmness": [
+                "calmness",
+                "gentleness",
+                "peacefulness"
+            ],
+            "\u263a": [
+                "\u263a",
+                "\u270c",
+                "\u2728",
+                "\u2764",
+                "\ud83d\udc4c",
+                "\ud83d\udc4f",
+                "\ud83d\udc90",
+                "\ud83d\udc99",
+                "\ud83d\udc9b",
+                "\ud83d\udc9e",
+                "\ud83d\ude00",
+                "\ud83d\ude02",
+                "\ud83d\ude03",
+                "\ud83d\ude04",
+                "\ud83d\ude05",
+                "\ud83d\ude07",
+                "\ud83d\ude0a",
+                "\ud83d\ude0c",
+                "\ud83d\ude0d",
+                "\ud83d\ude18"
+            ],
+            "procedure": [
+                "procedure",
+                "process"
+            ],
+            "concern": [
+                "concern"
+            ],
+            "plan": [
+                "plan"
+            ],
+            "health": [
+                "health",
+                "healthcare"
+            ],
+            "fear": [
+                "fear"
+            ],
+            "patience": [
+                "patience"
+            ],
+            "addition": [
+                "addition",
+                "combination",
+                "conjunction",
+                "extraction",
+                "specification"
+            ],
+            "month": [
+                "month",
+                "week",
+                "year"
+            ],
+            "moment": [
+                "moment"
+            ],
+            "place": [
+                "place"
+            ],
+            "question": [
+                "question"
+            ],
+            "price": [
+                "price"
+            ],
+            "advancement": [
+                "advancement",
+                "development",
+                "innovation",
+                "sophistication",
+                "technology",
+                "transformation"
+            ],
+            "star": [
+                "star"
+            ],
+            "problem": [
+                "problem"
+            ],
+            "life": [
+                "life"
+            ],
+            "dental": [
+                "dental",
+                "orthodontic",
+                "orthodontist",
+                "prosthodontic"
+            ],
+            "filling": [
+                "filling"
+            ],
+            "communicating": [
+                "communicating",
+                "communication",
+                "communicator",
+                "complication",
+                "connection",
+                "cooperation",
+                "coordination",
+                "interaction",
+                "orientation",
+                "relation",
+                "transformation"
+            ],
+            "destination": [
+                "destination",
+                "location",
+                "relocation"
+            ],
+            "check": [
+                "check"
+            ],
+            "child": [
+                "child",
+                "children"
+            ],
+            "detail": [
+                "detail"
+            ],
+            "distraction": [
+                "distraction",
+                "enviornment",
+                "environment",
+                "reparation",
+                "trepidation"
+            ],
+            "compassion": [
+                "compassion",
+                "encouragement",
+                "passion"
+            ],
+            "practice": [
+                "practice",
+                "practise"
+            ],
+            "step": [
+                "step"
+            ],
+            "boyfriend": [
+                "boyfriend",
+                "girlfriend",
+                "husband"
+            ],
+            "rescheduling": [
+                "rescheduling",
+                "schedule",
+                "scheduling"
+            ],
+            "clean": [
+                "clean",
+                "cleaned",
+                "cleaner"
+            ],
+            "brace": [
+                "brace"
+            ],
+            "analysis": [
+                "analysis",
+                "application",
+                "assessment",
+                "complication",
+                "consideration",
+                "consultation",
+                "decalcification",
+                "documentation",
+                "estimation",
+                "evaluation",
+                "examination",
+                "indication",
+                "inspection",
+                "measurement",
+                "preparation",
+                "recommendation",
+                "specification",
+                "verification"
+            ],
+            "guy": [
+                "guy"
+            ],
+            "communication": [
+                "communication",
+                "cooperation",
+                "coordination",
+                "organization",
+                "orientation",
+                "preparation"
+            ],
+            "skill": [
+                "skill",
+                "skillset"
+            ],
+            "discomfort": [
+                "discomfort",
+                "pain",
+                "soreness"
+            ],
+            "insurance": [
+                "insurance",
+                "insurer"
+            ],
+            "cavity": [
+                "cavity"
+            ],
+            "equipment": [
+                "equipment"
+            ],
+            "job": [
+                "job"
+            ],
+            "family": [
+                "family"
+            ],
+            "dentist": [
+                "dentist",
+                "endodontist",
+                "orthodontist",
+                "periodontist",
+                "prosthodontic",
+                "prosthodontist"
+            ],
+            "anxiety": [
+                "anxiety",
+                "nervousness"
+            ],
+            "afternoon": [
+                "afternoon",
+                "evening",
+                "morning",
+                "night"
+            ],
+            "expertise": [
+                "expertise",
+                "knowledge",
+                "understanding"
+            ],
+            "attention": [
+                "attention"
+            ],
+            "care": [
+                "care"
+            ],
+            "quality": [
+                "quality"
+            ],
+            "result": [
+                "result"
+            ],
+            "affection": [
+                "affection",
+                "association",
+                "communication",
+                "complication",
+                "connection",
+                "consideration",
+                "indication",
+                "interaction",
+                "intervention",
+                "limitation",
+                "manipulation",
+                "orientation",
+                "regulation",
+                "relation",
+                "relationship",
+                "relative",
+                "representation"
+            ],
+            "daughter": [
+                "daughter",
+                "grandchild",
+                "husband",
+                "mother",
+                "sister",
+                "son",
+                "wife"
+            ],
+            "need": [
+                "need",
+                "want"
+            ],
+            "thank": [
+                "thank"
+            ],
+            "wisdom": [
+                "wisdom"
+            ],
+            "surgery": [
+                "surgery"
+            ],
+            "area": [
+                "area"
+            ],
+            "home": [
+                "home"
+            ],
+            "confidence": [
+                "confidence"
+            ],
+            "end": [
+                "end"
+            ],
+            "today": [
+                "today"
+            ],
+            "atmosphere": [
+                "atmosphere"
+            ],
+            "issue": [
+                "issue"
+            ],
+            "acknowledgment": [
+                "acknowledgment",
+                "understanding",
+                "understatement"
+            ],
+            "team": [
+                "team"
+            ],
+            "reception": [
+                "reception"
+            ],
+            "smile": [
+                "smile",
+                "smiles"
+            ],
+            "thing": [
+                "thing",
+                "thingy"
+            ],
+            "accountability": [
+                "accountability",
+                "commitment",
+                "dedication"
+            ],
+            "work": [
+                "work",
+                "work.",
+                "working"
+            ],
+            "estimation": [
+                "estimation",
+                "extraction",
+                "fraction",
+                "measurement",
+                "proportion"
+            ],
+            "kid": [
+                "kid"
+            ],
+            "competence": [
+                "competence",
+                "profession",
+                "professional",
+                "professionalism",
+                "professionality",
+                "proffessional"
+            ],
+            "manner": [
+                "manner"
+            ],
+            "decade": [
+                "decade"
+            ],
+            "staff": [
+                "staff",
+                "staff-",
+                "staffer",
+                "staffing"
+            ],
+            "minute": [
+                "minute"
+            ],
+            "maintenance": [
+                "maintenance",
+                "service",
+                "servicing"
+            ],
+            "cleaner": [
+                "cleaner",
+                "cleaning",
+                "cleansing"
+            ],
+            "intervention": [
+                "intervention",
+                "medication",
+                "overtreatment",
+                "prevention",
+                "retreatment",
+                "treatment"
+            ],
+            "circumstance": [
+                "circumstance",
+                "predicament",
+                "situation"
+            ],
+            "kind": [
+                "kind",
+                "sort"
+            ],
+            "hand": [
+                "hand"
+            ],
+            "person": [
+                "person"
+            ],
+            "dad": [
+                "dad",
+                "mom",
+                "mum"
+            ],
+            "lot": [
+                "lot"
+            ],
+            "experience": [
+                "experience",
+                "expertise",
+                "knowledge"
+            ],
+            "-year": [
+                "-year",
+                "month",
+                "year"
+            ],
+            "way": [
+                "way"
+            ],
+            "attentiveness": [
+                "attentiveness",
+                "clearness",
+                "gentleness",
+                "helpfulness",
+                "humbleness",
+                "kindness",
+                "promptness",
+                "thoughtfulness"
+            ],
+            "mouth": [
+                "mouth"
+            ],
+            "appointment": [
+                "appointment"
+            ],
+            "desk": [
+                "desk"
+            ],
+            "member": [
+                "member"
+            ],
+            "day": [
+                "day"
+            ],
+            "gentleness": [
+                "gentleness",
+                "greatness",
+                "humbleness",
+                "kindness",
+                "ness",
+                "sincerity",
+                "thoughtfulness"
+            ],
+            "expert": [
+                "expert",
+                "specialist"
+            ],
+            "explanation": [
+                "explanation",
+                "recommendation",
+                "suggestion"
+            ],
+            "emergency": [
+                "emergency"
+            ],
+            "definition": [
+                "definition",
+                "explanation",
+                "indication",
+                "suggestion"
+            ],
+            "office": [
+                "office"
+            ],
+            "implant": [
+                "implant",
+                "implantitis",
+                "periodontitis"
+            ],
+            "level": [
+                "level"
+            ],
+            "receptionist": [
+                "receptionist"
+            ],
+            "hygiene": [
+                "hygiene"
+            ],
+            "crown": [
+                "crown"
+            ],
+            "approachability": [
+                "approachability",
+                "clearness",
+                "knowledge",
+                "perspective",
+                "understanding",
+                "understatement"
+            ],
+            "hygienist": [
+                "hygienist"
+            ],
+            "advice": [
+                "advice"
+            ],
+            "decision": [
+                "decision"
+            ],
+            "gum": [
+                "gum"
+            ],
+            "pleasure": [
+                "pleasure"
+            ],
+            "root": [
+                "root"
+            ],
+            "patient": [
+                "patient"
+            ],
+            "option": [
+                "option"
+            ],
+            "hour": [
+                "hour"
+            ]
+        }
+    },
+    "bad": {
+        "word_freqs": {
+            "month": 582,
+            "dentist": 481,
+            "teeth": 476,
+            "time": 305,
+            "medication": 242,
+            "appointment": 238,
+            "experience": 169,
+            "insurance": 158,
+            "clinic": 157,
+            "application": 153,
+            "patient": 148,
+            "office": 140,
+            "cleaning": 137,
+            "discomfort": 133,
+            "disservice": 130,
+            "receptionist": 123,
+            "place": 122,
+            "daughter": 120,
+            "day": 118,
+            "filling": 117,
+            "money": 107,
+            "staff": 106,
+            "procedure": 105,
+            "client": 103,
+            "doctor": 101,
+            "review": 101,
+            "work": 99,
+            "calcification": 90,
+            "root": 86,
+            "ray": 82,
+            "brother": 72,
+            "analysis": 72,
+            "canal": 71,
+            "x": 67,
+            "authorization": 65,
+            "cavity": 61,
+            "visit": 58,
+            "mouth": 58,
+            "way": 57,
+            "thing": 55,
+            "hygienist": 55,
+            "dental": 54,
+            "issue": 52,
+            "minute": 52,
+            "people": 51,
+            "fee": 51,
+            "problem": 50,
+            "star": 47,
+            "crown": 47,
+            "care": 46,
+            "phone": 45,
+            "child": 45,
+            "desk": 43,
+            "addition": 43,
+            "consultant": 40,
+            "gum": 40,
+            "consultation": 39,
+            "job": 37,
+            "today": 37,
+            "family": 36,
+            "business": 36,
+            "charge": 35,
+            "cost": 35,
+            "practice": 34,
+            "administration": 34,
+            "hour": 34,
+            "lot": 33,
+            "consideration": 30,
+            "surgery": 30,
+            "end": 30,
+            "accountability": 30,
+            "price": 29,
+            "min": 29,
+            "expert": 28,
+            "concern": 27,
+            "opinion": 27,
+            "kid": 27,
+            "explanation": 27,
+            "emergency": 27,
+            "attitude": 26,
+            "assistant": 26,
+            "pocket": 26
+        },
+        "associated_adjectives": {
+            "gum": {
+                "sore": 4,
+                "swollen": 1
+            },
+            "experience": {
+                "bad": 34,
+                "terrible": 10,
+                "horrible": 7,
+                "good": 5,
+                "unpleasant": 4
+            },
+            "day": {
+                "entire": 2,
+                "second": 1,
+                "bad": 1,
+                "past": 1,
+                "following": 1
+            },
+            "cleaning": {
+                "dental": 14,
+                "regular": 3,
+                "basic": 2,
+                "general": 2,
+                "good": 1
+            },
+            "staff": {
+                "dental": 5,
+                "unprofessional": 2,
+                "rude": 2,
+                "fake": 1,
+                "previous": 1
+            },
+            "visit": {
+                "dental": 4,
+                "recent": 4,
+                "multiple": 2,
+                "second": 2,
+                "great": 1
+            },
+            "surgery": {
+                "dental": 3,
+                "major": 1,
+                "periodontal": 1,
+                "oral": 1
+            },
+            "dentist": {
+                "new": 14,
+                "bad": 11,
+                "good": 9,
+                "great": 8,
+                "different": 5
+            },
+            "problem": {
+                "main": 2,
+                "new": 1,
+                "major": 1,
+                "actual": 1,
+                "similar": 1
+            },
+            "appointment": {
+                "second": 4,
+                "future": 4,
+                "dental": 2,
+                "entire": 1,
+                "soon": 1
+            },
+            "clinic": {
+                "dental": 29,
+                "bad": 4,
+                "legitimate": 2,
+                "good": 1,
+                "friendly": 1
+            },
+            "care": {
+                "dental": 5,
+                "patient": 3,
+                "well": 2,
+                "thorough": 1,
+                "good": 1
+            },
+            "review": {
+                "good": 4,
+                "bad": 4,
+                "positive": 3,
+                "negative": 2,
+                "original": 2
+            },
+            "cost": {
+                "dental": 2,
+                "total": 2,
+                "hidden": 1,
+                "sunken": 1,
+                "extra": 1
+            },
+            "issue": {
+                "personal": 2,
+                "major": 2,
+                "new": 1,
+                "ongoing": 1,
+                "real": 1
+            },
+            "office": {
+                "dental": 40,
+                "new": 3,
+                "different": 2,
+                "great": 1,
+                "medical": 1
+            },
+            "time": {
+                "second": 9,
+                "long": 8,
+                "multiple": 5,
+                "different": 3,
+                "extra": 2
+            },
+            "canal": {
+                "infected": 1,
+                "missed": 1,
+                "pretend": 1,
+                "second": 1
+            },
+            "procedure": {
+                "unnecessary": 4,
+                "dental": 3,
+                "implant": 2,
+                "entire": 2,
+                "standard": 2
+            },
+            "cavity": {
+                "small": 4,
+                "simple": 1,
+                "false": 1,
+                "huge": 1,
+                "imaginary": 1
+            },
+            "opinion": {
+                "second": 17,
+                "2nd": 3,
+                "unsolicited": 1,
+                "different": 1
+            },
+            "practice": {
+                "dental": 5,
+                "dishonest": 3,
+                "standard": 1,
+                "potential": 1,
+                "fraudulent": 1
+            },
+            "people": {
+                "unsuspecting": 1,
+                "unprofessional": 1,
+                "multiple": 1,
+                "average": 1,
+                "unwelcoming": 1
+            },
+            "thing": {
+                "good": 4,
+                "dental": 1,
+                "favourite": 1,
+                "weekly": 1,
+                "sure": 1
+            },
+            "emergency": {
+                "dental": 3,
+                "medical": 1,
+                "personal": 1,
+                "patient": 1,
+                "specific": 1
+            },
+            "doctor": {
+                "new": 2,
+                "bad": 2,
+                "young": 2,
+                "senior": 2,
+                "rubbish": 1
+            },
+            "assistant": {
+                "dental": 9
+            },
+            "job": {
+                "bad": 3,
+                "good": 3,
+                "adequate": 2,
+                "well": 2,
+                "amazing": 1
+            },
+            "mouth": {
+                "wide": 1,
+                "small": 1
+            },
+            "child": {
+                "poor": 2,
+                "elderly": 1
+            },
+            "hygienist": {
+                "dental": 10,
+                "good": 1,
+                "different": 1,
+                "previous": 1,
+                "poor": 1
+            },
+            "place": {
+                "bad": 6,
+                "new": 3,
+                "terrible": 2,
+                "dental": 1,
+                "awful": 1
+            },
+            "filling": {
+                "new": 4,
+                "temporary": 2,
+                "upper": 2,
+                "entire": 1,
+                "brand": 1
+            },
+            "root": {
+                "infected": 1
+            },
+            "work": {
+                "dental": 21,
+                "unfinished": 3,
+                "great": 2,
+                "major": 2,
+                "future": 1
+            },
+            "patient": {
+                "new": 6,
+                "dental": 1,
+                "hapless": 1,
+                "cooperative": 1,
+                "long": 1
+            },
+            "pocket": {
+                "deep": 2
+            },
+            "family": {
+                "eastside": 1,
+                "huge": 1,
+                "personal": 1
+            },
+            "fee": {
+                "diagnostic": 5,
+                "additional": 4,
+                "extra": 3,
+                "hidden": 2,
+                "ridiculous": 1
+            },
+            "crown": {
+                "new": 3,
+                "previous": 1,
+                "fitting": 1,
+                "broken": 1,
+                "actual": 1
+            },
+            "discomfort": {
+                "unnecessary": 1,
+                "daily": 1
+            },
+            "minute": {
+                "maximum": 1,
+                "good": 1
+            },
+            "x": {
+                "panoramic": 3,
+                "extra": 2
+            },
+            "client": {
+                "specific": 1,
+                "potential": 1,
+                "new": 1
+            },
+            "receptionist": {
+                "rude": 6,
+                "bad": 2,
+                "interesting": 1,
+                "unprofessional": 1,
+                "terrible": 1
+            },
+            "attitude": {
+                "bad": 8,
+                "friendly": 1,
+                "racist": 1,
+                "stank": 1,
+                "arrogant": 1
+            },
+            "insurance": {
+                "dental": 2,
+                "2nd": 2,
+                "different": 1,
+                "good": 1
+            },
+            "way": {
+                "good": 2,
+                "condescending": 2,
+                "callous": 1,
+                "mid": 1,
+                "possible": 1
+            },
+            "money": {
+                "sweet": 1,
+                "enogh": 1
+            },
+            "daughter": {
+                "old": 2,
+                "poor": 1
+            },
+            "hour": {
+                "half": 1,
+                "long": 1
+            },
+            "teeth": {
+                "precious": 1
+            },
+            "price": {
+                "reasonable": 1,
+                "different": 1,
+                "promotional": 1
+            },
+            "month": {
+                "past": 2
+            },
+            "business": {
+                "principle": 1,
+                "new": 1,
+                "entire": 1
+            },
+            "charge": {
+                "unreasonable": 2,
+                "disguised": 1,
+                "extra": 1,
+                "single": 1,
+                "hidden": 1
+            },
+            "phone": {
+                "personal": 1
+            },
+            "star": {
+                "possible": 1,
+                "1st": 1
+            },
+            "desk": {
+                "unfriendly": 1
+            },
+            "concern": {
+                "primary": 1,
+                "patient": 1
+            },
+            "min": {
+                "late": 1
+            },
+            "explanation": {
+                "accurate": 1
+            },
+            "end": {
+                "high": 2
+            },
+            "analysis": {
+                "comparative": 1
+            },
+            "consultation": {
+                "good": 1
+            }
+        },
+        "word_groups": {
+            "people": [
+                "people"
+            ],
+            "attitude": [
+                "attitude"
+            ],
+            "practice": [
+                "practice"
+            ],
+            "doctor": [
+                "doctor"
+            ],
+            "client": [
+                "client",
+                "customer"
+            ],
+            "review": [
+                "review"
+            ],
+            "brother": [
+                "brother",
+                "daughter",
+                "mother",
+                "sister"
+            ],
+            "canal": [
+                "canal"
+            ],
+            "work": [
+                "work",
+                "working"
+            ],
+            "teeth": [
+                "teeth",
+                "tooth"
+            ],
+            "clinic": [
+                "clinic"
+            ],
+            "application": [
+                "application",
+                "authorization",
+                "confirmation",
+                "document",
+                "documentation",
+                "evaluation",
+                "information",
+                "instruction",
+                "modification",
+                "notification",
+                "registration"
+            ],
+            "assistant": [
+                "assistant"
+            ],
+            "pocket": [
+                "pocket"
+            ],
+            "administration": [
+                "administration",
+                "application",
+                "authorization",
+                "certification",
+                "confirmation",
+                "documentation",
+                "indication",
+                "modification",
+                "notification",
+                "recommendation",
+                "registration"
+            ],
+            "visit": [
+                "visit"
+            ],
+            "procedure": [
+                "procedure",
+                "process"
+            ],
+            "concern": [
+                "concern"
+            ],
+            "opinion": [
+                "opinion"
+            ],
+            "consideration": [
+                "consideration",
+                "consolation",
+                "contraption",
+                "indication",
+                "intervention",
+                "magnification"
+            ],
+            "calcification": [
+                "calcification",
+                "characterization",
+                "combination",
+                "extraction",
+                "processing"
+            ],
+            "month": [
+                "month",
+                "week",
+                "year"
+            ],
+            "place": [
+                "place"
+            ],
+            "charge": [
+                "charge"
+            ],
+            "price": [
+                "price"
+            ],
+            "cleaning": [
+                "cleaning",
+                "cleansing"
+            ],
+            "money": [
+                "money"
+            ],
+            "star": [
+                "star"
+            ],
+            "problem": [
+                "problem"
+            ],
+            "dental": [
+                "dental",
+                "orthodontic",
+                "orthodontist"
+            ],
+            "disservice": [
+                "disservice",
+                "service"
+            ],
+            "filling": [
+                "filling"
+            ],
+            "phone": [
+                "phone",
+                "telephone"
+            ],
+            "ray": [
+                "ray"
+            ],
+            "x": [
+                "x"
+            ],
+            "insurance": [
+                "insurance",
+                "insurer"
+            ],
+            "cavity": [
+                "cavity"
+            ],
+            "job": [
+                "job"
+            ],
+            "family": [
+                "family"
+            ],
+            "dentist": [
+                "dentist",
+                "endodontist",
+                "orthodontic",
+                "orthodontist",
+                "periodontist",
+                "prosthodontist"
+            ],
+            "care": [
+                "care"
+            ],
+            "surgery": [
+                "surgery"
+            ],
+            "end": [
+                "end"
+            ],
+            "today": [
+                "today"
+            ],
+            "business": [
+                "business"
+            ],
+            "issue": [
+                "issue"
+            ],
+            "medication": [
+                "medication",
+                "mistreatment",
+                "treatment"
+            ],
+            "kid": [
+                "kid"
+            ],
+            "accountability": [
+                "accountability",
+                "commitment",
+                "dedication"
+            ],
+            "time": [
+                "time",
+                "time/"
+            ],
+            "minute": [
+                "minute"
+            ],
+            "child": [
+                "child"
+            ],
+            "fee": [
+                "fee"
+            ],
+            "explanation": [
+                "explanation",
+                "recommendation",
+                "suggestion"
+            ],
+            "thing": [
+                "thing"
+            ],
+            "lot": [
+                "lot"
+            ],
+            "consultant": [
+                "consultant",
+                "consultation",
+                "consulting",
+                "management"
+            ],
+            "experience": [
+                "experience",
+                "expertise",
+                "knowledge"
+            ],
+            "way": [
+                "way"
+            ],
+            "mouth": [
+                "mouth"
+            ],
+            "appointment": [
+                "appointment"
+            ],
+            "desk": [
+                "desk"
+            ],
+            "day": [
+                "day"
+            ],
+            "authorization": [
+                "authorization",
+                "calcification",
+                "characterization",
+                "confirmation",
+                "consideration",
+                "consolation",
+                "contraption",
+                "evaluation",
+                "explanation",
+                "indication",
+                "magnification",
+                "modification"
+            ],
+            "daughter": [
+                "daughter",
+                "husband",
+                "mother",
+                "sister",
+                "son",
+                "wife"
+            ],
+            "analysis": [
+                "analysis",
+                "application",
+                "assessment",
+                "calcification",
+                "consideration",
+                "consultation",
+                "documentation",
+                "evaluation",
+                "examination",
+                "indication",
+                "inspection",
+                "measurement",
+                "modification",
+                "optimization",
+                "preparation",
+                "reassessment",
+                "recommendation",
+                "specialization"
+            ],
+            "expert": [
+                "expert",
+                "specialist"
+            ],
+            "consultation": [
+                "consultation",
+                "consulting",
+                "evaluation",
+                "recommendation"
+            ],
+            "staff": [
+                "staff"
+            ],
+            "discomfort": [
+                "discomfort",
+                "pain"
+            ],
+            "emergency": [
+                "emergency"
+            ],
+            "office": [
+                "office"
+            ],
+            "receptionist": [
+                "receptionist"
+            ],
+            "crown": [
+                "crown"
+            ],
+            "hygienist": [
+                "hygienist"
+            ],
+            "min": [
+                "min"
+            ],
+            "addition": [
+                "addition",
+                "characterization",
+                "combination",
+                "contraption",
+                "extraction",
+                "magnification",
+                "specialization"
+            ],
+            "gum": [
+                "gum"
+            ],
+            "root": [
+                "root"
+            ],
+            "patient": [
+                "patient"
+            ],
+            "cost": [
+                "cost"
+            ],
+            "hour": [
+                "hour"
+            ]
+        }
+    }
+}

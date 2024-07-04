@@ -1,6 +1,6 @@
 import sys
 import os
-from pkg.utils import get_refined_data
+from pkg.utils_reviews import get_refined_data
 
 
 def main():

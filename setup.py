@@ -13,7 +13,9 @@ setup(
         "matplotlib",
         "scikit-learn",
         "spacy",
-        "numpy"
+        "numpy",
+        "openai",
+        "python-dotenv"
     ],
     packages=find_packages(),
 )
